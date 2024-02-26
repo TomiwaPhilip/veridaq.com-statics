@@ -1,24 +1,27 @@
 import Image from "next/image"
+
 import { Card, Checks } from "@/components/shared/Cards"
 import { NoOutlineButton } from "@/components/shared/Button"
+import { Cta } from "@/components/shared/Reusables"
 
 export default function Pricing() {
     return(
         <main className="mt-[150px] mx-[50px]">
-            <div className="text-center items-center">
-                <p className="font-bold text-[40px] pb-10 text-center">
+            <div className="flex flex-col items-center justify-center text-center">
+                <p className="font-bold text-4xl pb-10">
                     Welcome to Veridaq.com, your trusted platform for seamless reference verification. 
                     We offer flexible pricing options to meet the needs of both individuals and organizations. 
                     Take a look at our pricing plans below:
                 </p>
-                <Image
-                    src={"/assets/images/Hero.png"}
-                    alt="hero"
-                    width={500}
-                    height={500}
-                />
+                <div className="w-1/2 mx-auto">
+                    <Image
+                        src={"/assets/images/Hero.png"}
+                        alt="hero"
+                        width={500}
+                        height={500}
+                    />
+                </div>
             </div>
-
             <section className="mt-[100px]"> 
                 <p className="font-bold text-[36px] mb-10">For Individuals</p>
                 <div className="flex justify-center gap-10">
@@ -116,6 +119,30 @@ export default function Pricing() {
                     <NoOutlineButton name="Sign Up Now" />
                 </div>
             </section>
+            
+            <section className="mt-[100px]">
+                <p className="font-bold text-[36px] mb-10">Additional Information</p>
+                <ul className="text-[24px] list-disc pl-4 ml-8">
+                    <li className="mb-2">
+                        <span className="font-bold"> Billing Cycle: </span>Annual billing for Individual Subscription. Custom billing options available for Enterprise Solutions.
+                    </li>
+                    <li className="mb-2">
+                        <span className="font-bold"> Payment Methods: </span>We accept major credit cardsand electronic transfers.
+                    </li>
+                    <li className="mb-2">
+                        <span className="font-bold"> Customer Support: </span>Our dedicated support team isavailable to assist you with any questions or concerns.
+                    </li>
+                </ul>
+            </section>
+
+            <Cta
+                paragraph = {
+                <p className="text-lg"> 
+                    Start streamlining your reference verification process with Veridaq.com today. Sign Up Now to get started!
+                </p>
+                }
+            />
+
 
         </main>
     )
