@@ -2,26 +2,17 @@ import Image from "next/image"
 
 import { Card, Checks } from "@/components/shared/Cards"
 import { NoOutlineButton } from "@/components/shared/Button"
-import { Cta } from "@/components/shared/Reusables"
+import { Cta, Hero2 } from "@/components/shared/Reusables"
 
 export default function Pricing() {
     return(
         <main className="mt-[150px] mx-[50px]">
-            <div className="flex flex-col items-center justify-center text-center">
-                <p className="font-bold text-4xl pb-10">
-                    Welcome to Veridaq.com, your trusted platform for seamless reference verification. 
-                    We offer flexible pricing options to meet the needs of both individuals and organizations. 
-                    Take a look at our pricing plans below:
-                </p>
-                <div className="w-1/2 mx-auto">
-                    <Image
-                        src={"/assets/images/Hero.png"}
-                        alt="hero"
-                        width={500}
-                        height={500}
-                    />
-                </div>
-            </div>
+            <Hero2
+                heading="Welcome to Veridaq.com, your trusted platform for seamless reference
+                verification. We offer flexible pricing options to meet the needs of
+                both individuals and organizations. Take a look at our pricing plans
+                below:"
+            />
             <section className="mt-[100px]"> 
                 <p className="font-bold text-[36px] mb-10">For Individuals</p>
                 <div className="flex justify-center gap-10">

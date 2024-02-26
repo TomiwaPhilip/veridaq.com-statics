@@ -118,6 +118,22 @@ export function SectionImageLeft({
   );
 }
 
+export function Hero2({ heading }: { heading: string }) {
+  return (
+    <div className="flex flex-col items-center justify-center text-center">
+      <p className="font-bold text-4xl pb-10">{heading}</p>
+      <div className="w-1/2 mx-auto">
+        <Image
+          src={"/assets/images/Hero.png"}
+          alt="hero"
+          width={500}
+          height={500}
+        />
+      </div>
+    </div>
+  );
+}
+
 // This is the Call to Action component
 export function Cta({ paragraph }: { paragraph: ReactNode }) {
   return (
