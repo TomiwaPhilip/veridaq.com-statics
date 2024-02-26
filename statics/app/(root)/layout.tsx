@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css"
 
 import Nav from "@/components/shared/Nav";
+import { Footer } from "@/components/shared/Reusables";
 
 export const metadata: Metadata = {
   title: "Veridaq.com",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

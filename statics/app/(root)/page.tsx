@@ -1,5 +1,4 @@
-import { Cta, Hero, SectionImageLeft, SectionImageRight, Footer } from "@/components/shared/Reusables";
-import Image from "next/image";
+import { Cta, Hero, SectionImageLeft, SectionImageRight } from "@/components/shared/Reusables";
 
 export default function Home() {
   return (
@@ -81,7 +80,6 @@ export default function Home() {
           </p>
         }
       />
-      <Footer />
     </main>
   );
 }
