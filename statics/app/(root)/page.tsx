@@ -1,4 +1,4 @@
-import { Hero } from "@/components/shared/Reusables";
+import { Cta, Hero, SectionImageLeft, SectionImageRight, Footer } from "@/components/shared/Reusables";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,34 +17,71 @@ export default function Home() {
           imgAlt="hero"
         />
       </section>
-      <section className="mt-[100px]">
-        <p className="font-bold text-[36px] text-center pb-7">Why Veridaq.com?</p>
-        <div className="flex justify-center pt-10 gap-10 space-x-10">
-          <div className="mr-[50px]">
-            <p className="text-[24px]">
-              <span className="mt-10">
-                <span className="font-bold">Efficiency: </span> Say goodbye to time-consuming reference checks.Veridaq.com streamlines the process, saving you valuable time.
-              </span>
-              <br /> <br />
-              <span className="mt-10">
-                <span className="font-bold">Reliability: </span>Trust in the authenticity of verifiable claims. Our platform ensures the integrity of the information exchanged between entities.
-              </span>
-              <br /> <br />
-              <span className="mt-10">
-                <span className="font-bold">Cost-Effective: </span>Cut down on costs associated with traditional reference checks. Veridaq.com offers a cost-effective solution for your verification needs.
-              </span>
-            </p>
-          </div>
-          <div className="">
-            <Image
-              src={"/assets/images/Veridaq_Check.png"}
-              alt="hero"
-              width={1200}
-              height={1200}
-            />
-          </div>
-        </div>
+      <section className="mt-[100px]"> 
+        <SectionImageRight
+          heading="Why Veridaq.com?"
+          paragraphs ={
+              <p> 
+                  <span className="mt-10">
+                    <span className="font-bold">Efficiency: </span> Say goodbye to time-consuming reference checks.Veridaq.com streamlines the process, saving you valuable time.
+                  </span>
+                  <br /> <br />
+                  <span className="mt-10">
+                    <span className="font-bold">Reliability: </span>Trust in the authenticity of verifiable claims. Our platform ensures the integrity of the information exchanged between entities.
+                  </span>
+                <br /> <br />
+                <span className="mt-10">
+                  <span className="font-bold">Cost-Effective: </span>Cut down on costs associated with traditional reference checks. Veridaq.com offers a cost-effective solution for your verification needs.
+                </span>
+              </p>
+          }
+          imgSrc="/assets/images/Veridaq_Check.png"
+          imgWidth={1200}
+          imgHeight={1200}
+          imgAlt="Veridaq_Check"
+         />
       </section>
+      <section className="mt-[100px]"> 
+        <SectionImageLeft
+          imgSrc="/assets/images/Settings.png"
+          imgWidth={1200}
+          imgHeight={1200}
+          imgAlt="Settings"
+          heading="Verifiable Claims for Every Relationship"
+          paragraphs = {
+            <p>
+                <span className="mt-10">
+                    <span className="font-bold">Work History Veridaq: </span> Seamlessly verify work relationships between organizations and employees.
+                  </span>
+                  <br /> <br />
+                  <span className="mt-10">
+                    <span className="font-bold">Individual Reference or Recommendation Veridaq: </span>Obtain verifiable references or recommendations between individuals.
+                  </span>
+                <br /> <br />
+                <span className="mt-10">
+                  <span className="font-bold">Membership Veridaq: </span>Establish proof of relationships between organizations or associations professional bodies and the members
+                </span>
+                <br /> <br />
+                <span className="mt-10">
+                  <span className="font-bold">Studentship Status Veridaq: </span>Verify current studentshipstatus claim automatically
+                </span>
+                <br /> <br />
+                <span className="mt-10">
+                  <span className="font-bold">Document Verification Veridaq: </span>Ensure the genuineness ofd ocuments through verifiable references.
+                </span>
+            </p>
+          }
+        />
+      </section>
+      <Cta
+        paragraph = {
+          <p> 
+            Join Veridaq.com Today for a Smarter, Faster, and More Secure Reference Check Experience! Or 
+            <a href="/about" className="text-[#EA098D]"> learn more. </a>
+          </p>
+        }
+      />
+      <Footer />
     </main>
   );
 }
