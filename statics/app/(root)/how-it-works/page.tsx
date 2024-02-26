@@ -13,7 +13,18 @@ export default function HowItWorks() {
             />
             <section className=""> 
                 <SectionImageRight 
-                    
+                    heading=""
+                    paragraphs={
+                        <div>
+                            <p className="text-[20px] font-bold">Sign Up and Profile Creation <br />
+                                Begin your journey with Veridaq.com by creating your account. Provide essential details and 
+                                complete your profile to ensure a personalized and secure experience.</p>
+                        </div>
+                    }
+                    imgSrc="/assets/images/sign-up.png"
+                    imgAlt="user"
+                    imgWidth={400}
+                    imgHeight={400}
                 />
             </section>
         </main>

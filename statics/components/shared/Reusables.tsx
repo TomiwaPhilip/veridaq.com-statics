@@ -40,6 +40,14 @@ export function Hero({
   );
 }
 
+interface prop {
+  heading: string;
+  paragraphs: ReactNode;
+  imgSrc: string;
+  imgWidth: number;
+  imgHeight: number;
+  imgAlt: string;
+}
 // This components is for sections with images on the right
 export function SectionImageRight({
   heading,
@@ -48,14 +56,7 @@ export function SectionImageRight({
   imgWidth,
   imgHeight,
   imgAlt,
-}: {
-  heading: string;
-  paragraphs: ReactNode;
-  imgSrc: string;
-  imgWidth: number;
-  imgHeight: number;
-  imgAlt: string;
-}) {
+}: prop) {
   return (
     <div className="">
       <p className="font-bold text-[36px] text-center pb-7">{heading}</p>
@@ -87,14 +88,7 @@ export function SectionImageLeft({
   imgWidth,
   imgHeight,
   imgAlt,
-}: {
-  heading: string;
-  paragraphs: ReactNode;
-  imgSrc: string;
-  imgWidth: number;
-  imgHeight: number;
-  imgAlt: string;
-}) {
+}: prop) {
   return (
     <div className="">
       <p className="font-bold text-[36px] text-center pb-7">{heading}</p>
