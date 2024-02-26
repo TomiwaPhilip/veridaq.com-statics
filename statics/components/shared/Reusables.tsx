@@ -6,10 +6,18 @@ export function Hero({
   heading,
   subheading,
   paragraphs,
+  imgSrc,
+  imgWidth,
+  imgHeight,
+  imgAlt,
 }: {
   heading: string;
   subheading: string;
   paragraphs: string;
+  imgSrc: string;
+  imgWidth: number;
+  imgHeight: number;
+  imgAlt: string;
 }) {
   return (
     <div className="flex justify-center gap-10 space-x-10">
@@ -23,12 +31,7 @@ export function Hero({
         </div>
       </div>
       <div className="">
-        <Image
-          src={"/assets/images/Hero.png"}
-          alt="hero"
-          width={1200}
-          height={1200}
-        />
+        <Image src={imgSrc} alt={imgAlt} width={imgWidth} height={imgHieght} />
       </div>
     </div>
   );

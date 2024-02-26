@@ -11,6 +11,10 @@ export default function Home() {
           paragraphs="Unlock the power of seamless reference verification with Veridaq.com.
           Our platform revolutionizes the way organizations and individuals
           handle reference checks through secure and verifiable claims."
+          imgSrc="/assets/images/Hero.png"
+          imgWidth={1200}
+          imgHeight={1200}
+          imgAlt="hero"
         />
       </section>
       <section className="mt-[100px]">
@@ -21,11 +25,11 @@ export default function Home() {
               <span className="mt-10">
                 <span className="font-bold">Efficiency: </span> Say goodbye to time-consuming reference checks.Veridaq.com streamlines the process, saving you valuable time.
               </span>
-              <br />
+              <br /> <br />
               <span className="mt-10">
                 <span className="font-bold">Reliability: </span>Trust in the authenticity of verifiable claims. Our platform ensures the integrity of the information exchanged between entities.
               </span>
-              <br />
+              <br /> <br />
               <span className="mt-10">
                 <span className="font-bold">Cost-Effective: </span>Cut down on costs associated with traditional reference checks. Veridaq.com offers a cost-effective solution for your verification needs.
               </span>
