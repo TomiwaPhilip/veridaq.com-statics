@@ -13,3 +13,10 @@ body {
   overflow-x: hidden; /* Ensure the SVG stays at the bottom-right corner */
 }
 
+.veridaq-gradient {
+  background-image: linear-gradient(to right, #694C9F, #EA098D)
+} 
+
+.veridaq-primary-1 {
+  color: #694C9F
+} 
