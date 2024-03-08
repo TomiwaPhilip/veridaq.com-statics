@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #ffffff;
+  background: #38313a;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden; /* Ensure the SVG stays at the bottom-right corner */
+}
+
+.veridaq-gradient {
+  background-image: linear-gradient(to right, #694C9F, #EA098D)
+} 
+
+.veridaq-primary-1 {
+  color: #694C9F
+} 
