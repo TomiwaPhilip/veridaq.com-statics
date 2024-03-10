@@ -91,7 +91,7 @@ export function SectionImageRight2({
   return (
     <div className="">
       <p className="font-bold text-[36px] text-center pb-7">{heading}</p>
-      <div className="flex justify-between items-start gap-3">
+      <div className="flex justify-between items-start gap-12">
         <div className="w-[50%]">
           <div className="text-[24px]">{paragraphs}</div>
         </div>
