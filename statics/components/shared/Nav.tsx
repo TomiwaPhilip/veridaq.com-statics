@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { OutlineButton, NoOutlineButton } from "./Button";
+import { OutlineButtonSmall, NoOutlineButtonSmall } from "./Button";
 
 export default function Nav() {
   const pathname = usePathname();
@@ -76,10 +76,10 @@ export default function Nav() {
             <p className={`text-sm p-2 ${isActiveLink("/about")}`}>About</p>
           </Link>
           <Link href={"/login"}>
-            <OutlineButton name="Log in" />
+            <OutlineButtonSmall name="Log in" />
           </Link>
           <Link href={"/signup"}>
-            <NoOutlineButton name="Sign Up" />
+            <NoOutlineButtonSmall name="Sign Up" />
           </Link>
         </div>
       </div>

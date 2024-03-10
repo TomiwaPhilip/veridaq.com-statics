@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ReactNode } from "react";
 
-import { OutlineButtonSmall, NoOutlineButtonSmall, OutlineButtonBig, NoOutlineButtonBig } from "./Button";
+import { OutlineButtonBig, NoOutlineButtonBigBig } from "./Button";
 import Link from "next/link";
 
 // This component is for the Hero section
@@ -29,8 +29,8 @@ export function Hero({
         <p className="font-bold text-[32px] pb-3">{subheading}</p>
         <p className="font-semibold text-[24px] pb-3">{paragraphs}</p>
         <div className="flex gap-3">
-          <NoOutlineButton name="Sign up Now" />
-          <OutlineButton name="How it Works" />
+          <NoOutlineButtonBig name="Sign up Now" />
+          <OutlineButtonBig name="How it Works" />
         </div>
       </div>
       <div className="">
@@ -74,7 +74,7 @@ export function SectionImageRight({
         </div>
       </div>
       <div className="text-center mt-10 pt-5">
-        <NoOutlineButton name="Sign Up Now" />
+        <NoOutlineButtonBig name="Sign Up Now" />
       </div>
     </div>
   );
@@ -105,7 +105,7 @@ export function SectionImageLeft({
         </div>
       </div>
       <div className="text-center mt-10 pt-5">
-        <NoOutlineButton name="Sign Up Now" />
+        <NoOutlineButtonBig name="Sign Up Now" />
       </div>
     </div>
   );
@@ -191,7 +191,7 @@ export function Cta({ paragraph }: { paragraph: ReactNode }) {
         <div className="p-8 md:p-10 lg:p-12 xl:p-16 rounded-lg border border-[#694C9F] border-4">
           <div className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-normal mb-8 md:mb-10 lg:mb-12 xl:mb-16">{paragraph}</div>
           <div className="">
-            <NoOutlineButton name="Sign Up Now" />
+            <NoOutlineButtonBig name="Sign Up Now" />
           </div>
         </div>
       </div>
