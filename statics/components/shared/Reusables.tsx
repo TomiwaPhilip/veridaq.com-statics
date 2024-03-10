@@ -92,61 +92,66 @@ interface SectionImageProps {
   numberIcons: string[]; // Array of image paths for number icons
 }
 
-export function SectionImageRight2({
-  heading,
-  items,
-  numberIcons,
-}: SectionImageProps) {
-  return (
-    <div className="flex items-center justify-center gap-20 relative">
-      {/* Render number icons as images */}
-      <div className="absolute h-full flex flex-col justify-between">
-        {numberIcons.map((icon, index) => (
-          <div key={index} className="flex items-center justify-center">
-            <img src={icon} alt={`Number ${index + 1}`} className="w-6 h-6" />
-          </div>
-        ))}
-      </div>
-      {/* Render the line */}
-      <div className="absolute h-[500px] border-l-8 border-[#694C9F] border-solid z-10"></div>
-      {/* Render paragraphs and images */}
-      <div className="w-1/2 max-w-[600px]">
-        <p className="font-bold text-[36px] pb-7">{heading}</p>
-        {items.map((item, index) => (
-          <div
-            key={index}
-            className={`flex items-center mb-10 ${index % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}
-          >
-            {/* Conditionally render image and paragraph based on the item index */}
-            {index % 2 === 0 ? (
-              <>
-                <div className="mr-10">
-                  <img
-                    src={item.imgSrc}
-                    alt={item.imgAlt}
-                    className="w-[100px] h-[100px]"
-                  />
-                </div>
-                <div>{item.paragraph}</div>
-              </>
-            ) : (
-              <>
-                <div>{item.paragraph}</div>
-                <div className="ml-10">
-                  <img
-                    src={item.imgSrc}
-                    alt={item.imgAlt}
-                    className="w-[100px] h-[100px]"
-                  />
-                </div>
-              </>
-            )}
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
+// export function SectionImageRight2({
+//   heading,
+//   items,
+//   numberIcons,
+// }: SectionImageProps) {
+//   return (
+//     <div className="flex items-center justify-center h-screen">
+//       <div className="relative flex items-stretch w-full">
+//         {/* Render number icons as images */}
+//         <div className="absolute h-full flex flex-col justify-between">
+//           {numberIcons.map((icon, index) => (
+//             <div
+//               key={index}
+//               className="absolute top-0 left-1/2 transform -translate-x-1/2"
+//             >
+//               <img src={icon} alt={`Number ${index + 1}`} className="w-6 h-6" />
+//             </div>
+//           ))}
+//         </div>
+//         {/* Render the line */}
+//         <div className="absolute inset-y-0 left-1/2 transform -translate-x-1/2 w-0.5 bg-gray-400"></div>
+//         {/* Render paragraphs and images */}
+//         <div className="w-1/2 max-w-[600px] flex justify-between items-center">
+//           <p className="font-bold text-[36px] pb-7">{heading}</p>
+//           {items.map((item, index) => (
+//             <div
+//               key={index}
+//               className={`flex items-center mb-10 ${index % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}
+//             >
+//               {/* Conditionally render image and paragraph based on the item index */}
+//               {index % 2 === 0 ? (
+//                 <>
+//                   <div className="mr-10">
+//                     <img
+//                       src={item.imgSrc}
+//                       alt={item.imgAlt}
+//                       className="w-[100px] h-[100px]"
+//                     />
+//                   </div>
+//                   <div>{item.paragraph}</div>
+//                 </>
+//               ) : (
+//                 <>
+//                   <div>{item.paragraph}</div>
+//                   <div className="ml-10">
+//                     <img
+//                       src={item.imgSrc}
+//                       alt={item.imgAlt}
+//                       className="w-[100px] h-[100px]"
+//                     />
+//                   </div>
+//                 </>
+//               )}
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
 // This component is for sections with images on the left
 export function SectionImageLeft({

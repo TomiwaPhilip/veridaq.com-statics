@@ -110,3 +110,12 @@ export const items = [
     imgAlt: "Image 1",
   },
 ];
+
+export const numberIcons = [
+  "number1.png",
+  "number2.png",
+  "number3.png",
+  "number4.png",
+  "number5.png",
+  "number6.png",
+];
