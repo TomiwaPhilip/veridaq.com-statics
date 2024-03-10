@@ -8,11 +8,19 @@ export default function HowItWorks() {
                 process through seamless and secure verifiable claims. Discover the simplicity and efficiency 
                 of our platform with a step-by-step guide on how Veridaq.com works:"
             />
+            <div className="flex items-center justify-center">
+            <div className="relative">
+                <div className="absolute h-[1000px] border-l-8 border-[#694C9F] border-solid z-10"></div>
+                <div className="relative z-20"> 
+                </div>
+            </div>
+            </div>
+
             <section className=""> 
                 <SectionImageRight 
                     heading=""
                     paragraphs={
-                        <div>
+                        <div className="mr-[200px]">
                             <p className="text-[20px] font-bold">Sign Up and Profile Creation <br />
                                 Begin your journey with Veridaq.com by creating your account. Provide essential details and 
                                 complete your profile to ensure a personalized and secure experience.</p>
