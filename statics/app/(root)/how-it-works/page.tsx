@@ -10,7 +10,7 @@ export default function HowItWorks() {
             />
 
             <section className=""> 
-
+                
             </section>
             <Cta 
                 paragraph = {
