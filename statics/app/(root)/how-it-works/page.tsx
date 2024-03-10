@@ -1,4 +1,4 @@
-import { Cta, Hero2, SectionImageLeft, SectionImageRight } from "@/components/shared/Reusables"
+import { Cta, Hero2, SectionImageLeft, SectionImageRight, SectionImageRight2 } from "@/components/shared/Reusables"
 
 export default function HowItWorks() {
     return(
@@ -10,14 +10,13 @@ export default function HowItWorks() {
             />
             <div className="flex items-center justify-center">
             <div className="relative">
-                <div className="absolute h-[1000px] border-l-8 border-[#694C9F] border-solid z-10"></div>
+                <div className="absolute h-[2000px] border-l-8 border-[#694C9F] border-solid z-10"></div>
                 <div className="relative z-20"> 
                 </div>
             </div>
             </div>
-
             <section className=""> 
-                <SectionImageRight 
+                <SectionImageRight2 
                     heading=""
                     paragraphs={
                         <div className="mr-[200px]">
@@ -28,8 +27,8 @@ export default function HowItWorks() {
                     }
                     imgSrc="/assets/images/sign-up.png"
                     imgAlt="user"
-                    imgWidth={400}
-                    imgHeight={400}
+                    imgWidth={300}
+                    imgHeight={300}
                 />
                 <SectionImageLeft 
                     heading=""

@@ -80,6 +80,29 @@ export function SectionImageRight({
   );
 }
 
+export function SectionImageRight2({
+  heading,
+  paragraphs,
+  imgSrc,
+  imgAlt,
+  imgWidth,
+  imgHeight,
+}: prop) {
+  return (
+    <div className="">
+      <p className="font-bold text-[36px] text-center pb-7">{heading}</p>
+      <div className="flex justify-between items-start gap-3">
+        <div className="w-[50%]">
+          <div className="text-[24px]">{paragraphs}</div>
+        </div>
+        <div className="">
+          <img src={imgSrc} alt={imgAlt} width={imgWidth} height={imgHeight} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // This component is for sections with images on the left
 export function SectionImageLeft({
   heading,
