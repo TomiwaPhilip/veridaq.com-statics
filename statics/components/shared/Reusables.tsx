@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ReactNode } from "react";
 
-import { OutlineButton, NoOutlineButton } from "./Button";
+import { OutlineButtonSmall, NoOutlineButtonSmall, OutlineButtonBig, NoOutlineButtonBig } from "./Button";
 import Link from "next/link";
 
 // This component is for the Hero section
@@ -186,11 +186,13 @@ export function Hero2({ heading }: { heading: string }) {
 // This is the Call to Action component
 export function Cta({ paragraph }: { paragraph: ReactNode }) {
   return (
-    <section className="px-[20rem] text-center mb-[50px] mt-[180px]">
-      <div className="p-10 rounded-lg border border-[#694C9F] border-5px">
-        <div className="text-[28px] font-semibold mb-10">{paragraph}</div>
-        <div className="">
-          <NoOutlineButton name="Sign Up Now" />
+    <section className="text-center mb-8 md:mb-12 lg:mb-16 xl:mb-20 mt-[12rem]">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-20">
+        <div className="p-8 md:p-10 lg:p-12 xl:p-16 rounded-lg border border-[#694C9F] border-4">
+          <div className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-normal mb-8 md:mb-10 lg:mb-12 xl:mb-16">{paragraph}</div>
+          <div className="">
+            <NoOutlineButton name="Sign Up Now" />
+          </div>
         </div>
       </div>
     </section>
@@ -200,40 +202,47 @@ export function Cta({ paragraph }: { paragraph: ReactNode }) {
 // This function is for the footer
 export function Footer() {
   return (
-    <div className="flex justify-center gap-10 bg-inherit w-full mx-inherit">
-      <div className="items-left">
-        <p className="text-[#EA098D] font-bold text-[36px] mb-10 mt-10">Menu</p>
-        <p className="font-medium text-[20px]">
-          <Link href={"/"}> Home</Link>
-        </p>
-        <p className="font-medium text-[20px]">
-          <Link href={"/about"}> About</Link>
-        </p>
-        <p className="font-medium text-[20px]">
-          <Link href={"/pricing"}> Pricing</Link>
-        </p>
-        <p className="font-medium text-[20px]">
-          <Link href={"/how-it-works"}> How it works</Link>
-        </p>
+    <footer className="py-10">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between md:items-start justify-center space-y-8 md:space-y-0 md:space-x-8 p-10">
+        {/* Menu section */}
+        <div className="flex flex-col w-full md:w-auto md:items-start lg:items-start xl:items-start items-center">
+          <p className="text-[#EA098D] font-bold text-2xl mb-4">Menu</p>
+          <Link href={"/"} passHref>
+            <p className="font-medium text-lg">Home</p>
+          </Link>
+          <Link href={"/about"} passHref>
+            <p className="font-medium text-lg">About</p>
+          </Link>
+          <Link href={"/pricing"} passHref>
+            <p className="font-medium text-lg">Pricing</p>
+          </Link>
+          <Link href={"/how-it-works"} passHref>
+            <p className="font-medium text-lg">How it works</p>
+          </Link>
+        </div>
+        
+        {/* Solution section */}
+        <div className="flex flex-col w-full md:w-auto md:items-start lg:items-start xl:items-start items-center">
+          <p className="text-[#EA098D] font-bold text-2xl mb-4">Solution</p>
+          <Link href={"/for-organization"} passHref>
+            <p className="font-medium text-lg">For Organization</p>
+          </Link>
+          <Link href={"/for-solution"} passHref>
+            <p className="font-medium text-lg">For Solution</p>
+          </Link>
+        </div>
+        
+        {/* Contact section */}
+        <div className="flex flex-col w-full md:w-auto md:items-start lg:items-start xl:items-start items-center">
+          <p className="text-[#EA098D] font-bold text-2xl mb-4">Contact</p>
+          <Link href={"/contact"} passHref>
+            <p className="font-medium text-lg">Contact Us</p>
+          </Link>
+          <Link href={"/support"} passHref>
+            <p className="font-medium text-lg">Support</p>
+          </Link>
+        </div>
       </div>
-      <div className="items-right">
-        <p className="text-[#EA098D] font-bold text-[36px] mb-10">Solution</p>
-        <p className="font-medium text-[20px]">
-          <Link href={"/for-organization"}> For Organization </Link>
-        </p>
-        <p className="font-medium text-[20px]">
-          <Link href={"/for-solution"}> For Solution </Link>
-        </p>
-      </div>
-      <div className="">
-        <p className="text-[#EA098D] font-bold text-[36px] mb-10">Contact</p>
-        <p className="font-medium text-[20px]">
-          <Link href={"/for-organization"}> For Organization </Link>
-        </p>
-        <p className="font-medium text-[20px]">
-          <Link href={"/for-solution"}> For Solution </Link>
-        </p>
-      </div>
-    </div>
+    </footer>
   );
 }
