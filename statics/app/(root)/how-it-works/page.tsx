@@ -1,6 +1,3 @@
-import Image from "next/image"
-
-import { NoOutlineButton } from "@/components/shared/Button"
 import { Cta, Hero2, SectionImageLeft, SectionImageRight } from "@/components/shared/Reusables"
 
 export default function HowItWorks() {
@@ -91,6 +88,12 @@ export default function HowItWorks() {
                     imgHeight={400}
                 />                
             </section>
+            <Cta 
+                paragraph = {
+                  <p className="font-bold text-[32px]">Ready to experience the Veridaq.com difference? 
+                  Sign Up Now and start enjoying a smarter, faster, and more secure reference check experience! </p>
+                }
+            />
         </main>
     )
 }
