@@ -1,5 +1,4 @@
-import { Cta, Hero2, SectionImageLeft, SectionImageRight, SectionImageRight2 } from "@/components/shared/Reusables"
-import { items, numberIcons } from "@/constants/items";
+import { Cta, Hero2, SectionImageLeft2, SectionImageRight2 } from "@/components/shared/Reusables"
 
 export default function HowItWorks() {
     return(
@@ -11,12 +10,12 @@ export default function HowItWorks() {
             />
 
             <section className="">
-                <SectionImageRight 
+                <SectionImageRight2 
                     heading=""
                     paragraphs={
-                        <div className="mr-[200px]">
-                            <p className="text-[20px] font-bold">Sign Up and Profile Creation <br />
-                                Begin your journey with Veridaq.com by creating your account. Provide essential details and 
+                        <div className="">
+                            <p className="text-[20px] font-bold">Sign Up and Profile Creation </p>
+                            <p className="text-[20px]">Begin your journey with Veridaq.com by creating your account. Provide essential details and 
                                 complete your profile to ensure a personalized and secure experience.</p>
                         </div>
                     }
@@ -25,7 +24,7 @@ export default function HowItWorks() {
                     imgWidth={300}
                     imgHeight={300}
                 />
-                <SectionImageLeft 
+                <SectionImageLeft2
                     heading=""
                     paragraphs={
                         <div>
@@ -45,7 +44,7 @@ export default function HowItWorks() {
                     imgWidth={400}
                     imgHeight={400}
                 />
-                <SectionImageRight 
+                <SectionImageRight2 
                     heading=""
                     paragraphs={
                         <div>
@@ -59,7 +58,7 @@ export default function HowItWorks() {
                     imgWidth={400}
                     imgHeight={400}
                 />
-                <SectionImageLeft 
+                <SectionImageLeft2 
                     heading=""
                     paragraphs={
                         <div>
@@ -75,7 +74,7 @@ export default function HowItWorks() {
                     imgWidth={400}
                     imgHeight={400}
                 />
-                <SectionImageRight 
+                <SectionImageRight2
                     heading=""
                     paragraphs={
                         <div>
