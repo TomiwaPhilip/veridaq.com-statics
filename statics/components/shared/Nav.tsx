@@ -31,11 +31,30 @@ export default function Nav() {
           <Link href={"/"}>
             <p className={`text-sm p-2 ${isActiveLink("/")}`}>Home</p>
           </Link>
-          <Link href={"/solution"}>
-            <p className={`text-sm p-2 ${isActiveLink("/solution")}`}>
+          {/* Modified Solution nav link */}
+          <div className="relative group">
+            <p
+              className={`text-sm p-2 cursor-pointer ${isActiveLink("/solution")}`}
+            >
               Solution
             </p>
-          </Link>
+            <div className="absolute top-full text-left left-0 hidden bg-[#38313a] group-hover:block border border-gray-200 shadow-md py-2 rounded-md z-10">
+              <Link href={"/for-organizations"}>
+                <p
+                  className={`text-sm px-4 py-2 ${isActiveLink("/for-organizations")}`}
+                >
+                  For Organization
+                </p>
+              </Link>
+              <Link href={"/for-individuals"}>
+                <p
+                  className={`text-sm px-4 py-2 ${isActiveLink("/for-individuals")}`}
+                >
+                  For Individuals
+                </p>
+              </Link>
+            </div>
+          </div>
           <Link href={"/pricing"}>
             <p className={`text-sm p-2 ${isActiveLink("/pricing")}`}>Pricing</p>
           </Link>
