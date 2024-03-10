@@ -18,12 +18,21 @@ export default function Nav() {
     <nav className="fixed top-0 left-0 w-full px-5 border-b border-gray-300 bg-gradient-to-b bg-transparent pb-1 pt-2 backdrop-blur-2xl">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
-          <div className="mr-10">
+          <div className="mr-10 md:hidden lg:block xl:block">
             <Image
               src={"/assets/images/logo.png"}
               alt="veridaq_logo"
               width={100}
               height={100}
+            />
+          </div>
+
+          <div className="mr-10 lg:hidden">
+            <Image
+              src={"/assets/images/logo.png"}
+              alt="veridaq_logo"
+              width={70}
+              height={70}
             />
           </div>
         </div>
