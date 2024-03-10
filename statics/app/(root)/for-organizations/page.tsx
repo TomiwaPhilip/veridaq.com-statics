@@ -4,9 +4,9 @@ export default function ForOrganization() {
     return(
         <main className="mt-[150px] mx-[50px]">
             <Hero2
-                heading="Welcome to Veridaq.com, your go-to platform for revolutionizing the reference check 
-                process through seamless and secure verifiable claims. Discover the simplicity and efficiency 
-                of our platform with a step-by-step guide on how Veridaq.com works:"
+                heading="Welcome to Veridaq, where we empower organizations with seamless reference verification solutions. 
+                Our platform is designed to simplify the reference check process, saving you time, effort, and resources. 
+                Here's how Veridaq can benefit your organization:"
             />
 
             <section className="">
@@ -15,9 +15,9 @@ export default function ForOrganization() {
                     heading=""
                     paragraphs={
                         <div className="">
-                            <p className="text-[20px] font-bold">Sign Up and Profile Creation </p>
-                            <p className="text-[20px]">Begin your journey with Veridaq.com by creating your account. Provide essential details and 
-                                complete your profile to ensure a personalized and secure experience.</p>
+                            <p className="text-[20px] font-bold pb-5">Streamlined Verification Process </p>
+                            <p className="text-[20px]">Say goodbye to manual reference checks. 
+                            Veridaq automates the verification process, allowing you to issue and manage verifiable claims effortlessly.</p>
                         </div>
                     }
                     imgSrc="/assets/images/sign-up.png"
@@ -31,17 +31,14 @@ export default function ForOrganization() {
                     heading=""
                     paragraphs={
                         <div>
-                            <p className="text-[20px] font-bold">Create Verifiable Claims</p>                            
-                            <ul className="text-[20px] list-disc">
-                                <li>Work History Veridaq: request and receive verifiable records of your work relationships with organizations.</li>
-                                <li>Individual Reference/Recommendation Veridaq: request and obtain verifiable references or recommendations from other individuals.</li>
-                                <li>Membership Veridaq: establish proof of relationships with request for membership verifiable badge from associations/Alumni/Professional bodies </li>
-                                <li>Studentship Status Veridaq: Studentship Status claim verifiable badge for current students.</li>
-                                <li>Document Verification Veridaq: ensure the authenticity of documents through verifiable references.</li>
-                            </ul>
+                            <p className="text-[20px] font-bold pb-5">Secure and Verifiable Claims:</p>                            
+                            <p className="text-[20px]">
+                                Ensure the integrity of your reference verification with secure and verifiable claims. 
+                                Veridaq provides clear and tamper-proof records of relationships between entities.
+                            </p>
                         </div>
                     }
-                    imgSrc="/assets/images/verify-claims.png"
+                    imgSrc="/assets/images/Veridaq_Check.png"
                     imgAlt="user"
                     imgWidth={400}
                     imgHeight={400}
@@ -52,12 +49,12 @@ export default function ForOrganization() {
                     heading=""
                     paragraphs={
                         <div>
-                            <p className="text-[20px] font-bold">Verification Loop</p>
-                            <p className="text-[20px]">Our platform employs an automated verification loop that ensures accuracy and security throughout the process. The verification loop 
-                                is designed to provide a reliable and tamper-proof system for the exchange of verifiable claims between entities.</p>
+                            <p className="text-[20px] font-bold pb-5">Flexible Issuance Options</p>
+                            <p className="text-[20px]">Whether you want to issue work Reference veridaq,,memberships, studentship status, 
+                            or document verification veridaq, Veridaq offers flexible issuance options to suit your needs</p>
                         </div>
                     }
-                    imgSrc="/assets/images/loop.png"
+                    imgSrc="/assets/images/Values.png"
                     imgAlt="user"
                     imgWidth={400}
                     imgHeight={400}
@@ -68,11 +65,9 @@ export default function ForOrganization() {
                     heading=""
                     paragraphs={
                         <div>
-                            <p className="text-[20px] font-bold">Access Your Veridaq Repository</p> 
-                            <p className="text-[20px]">Your secure Veridaq repository is the hub for managing all your verifiable claims:</p>
-                            <p className="text-[20px]"> <span className="font-bold"> Store: </span> Safely store your verifiable claims for easy access.</p>                           
-                            <p className="text-[20px]"> <span className="font-bold"> Share: </span> Share verifiable claims with relevant parties.</p>                           
-                            <p className="text-[20px]"> <span className="font-bold"> Manage: </span> Update, download, and control access to your verifiable claims.</p>                           
+                            <p className="text-[20px] font-bold pb-5">Centralized Repository</p> 
+                            <p className="text-[20px]">Access, store, and manage all your verifiable claims in one secure repository. 
+                            Veridaq's user-friendly interface makes it easy to organize and retrieve important information.</p>
                         </div>
                     }
                     imgSrc="/assets/images/box.png"
@@ -86,12 +81,28 @@ export default function ForOrganization() {
                     heading=""
                     paragraphs={
                         <div>
-                            <p className="text-[20px] font-bold">Experience a Smarter, Faster, and More Secure Reference Check</p>
-                            <p className="text-[20px]">Veridaq.com transforms reference checks into a streamlined,efficient, and secure process. Say goodbye to the hassles of traditional 
-                            reference verification and embrace a future where your professional connections are built on trust and transparency.</p>
+                            <p className="text-[20px] font-bold pb-5">Transparent Pricing Model</p>
+                            <p className="text-[20px]">Veridaq offers a transparent pricing model, 
+                            with options for freemium-based and commission-based issuance. Rest assured, you only pay for the services you use.
+                            </p>
                         </div>
                     }
-                    imgSrc="/assets/images/loop.png"
+                    imgSrc="/assets/images/verify-claims.png"
+                    imgAlt="user"
+                    imgWidth={400}
+                    imgHeight={400}
+                />
+                <NumberIcon imgSrc="/assets/icons/icon-number-06.png" imgAlt="6" />
+                <SectionImageLeft2 
+                    heading=""
+                    paragraphs={
+                        <div>
+                            <p className="text-[20px] font-bold pb-5">Dedicated Support</p> 
+                            <p className="text-[20px]">Our dedicated support team is here to assist you every step of the way. 
+                            Whether you have questions about platform features, pricing, or technical support, we're just a click away.</p>
+                        </div>
+                    }
+                    imgSrc="/assets/images/Settings.png"
                     imgAlt="user"
                     imgWidth={400}
                     imgHeight={400}
@@ -99,8 +110,9 @@ export default function ForOrganization() {
             </section>
             <Cta 
                 paragraph = {
-                  <p className="font-bold text-[32px]">Ready to experience the Veridaq.com difference? 
-                  Sign Up Now and start enjoying a smarter, faster, and more secure reference check experience! </p>
+                  <p className="font-bold text-[32px]">Ready to streamline your reference verification processes? 
+                  Sign up for Veridaq today and experience the future of reference checks for organizations. 
+                  Join the growing community of organizations who trust Veridaq for their verification needs.</p>
                 }
             />
         </main>
