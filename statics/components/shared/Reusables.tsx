@@ -120,11 +120,11 @@ export function SectionImageRight2({
 }: prop) {
   return (
     <div className="">
-      <div className="flex justify-center items-center pt-10 gap-10">
-        <div className="w-[40%]">
+      <div className="flex justify-center items-center gap-10">
+        <div className="w-[40%] p-5">
           <img src={imgSrc} alt={imgAlt} className="w-full h-full" />
         </div>
-        <div className="w-[60%]">
+        <div className="w-[60%] p-5 text-justify">
           <div className="text-[24px]">{paragraphs}</div>
         </div>
       </div>
@@ -141,14 +141,28 @@ export function SectionImageLeft2({
 }: prop) {
   return (
     <div className="">
-      <div className="flex justify-center items-center pt-10 gap-10">
-        <div className="w-[60%]">
-          <div className="text-[24px]">{paragraphs}</div>
+      <div className="flex justify-center items-center gap-10">
+        <div className="w-[60%] p-5">
+          <div className="text-[24px] text-justify">{paragraphs}</div>
         </div>
-        <div className="w-[40%]">
+        <div className="w-[40%] p-5">
           <img src={imgSrc} alt={imgAlt} className="w-full h-full" />
         </div>
       </div>
+    </div>
+  );
+}
+
+export function NumberIcon({
+  imgSrc,
+  imgAlt,
+}: {
+  imgSrc: string;
+  imgAlt: string;
+}) {
+  return (
+    <div className="flex items-center justify-center pt-[4rem]">
+      <img src={imgSrc} alt={imgAlt} className="w-[50px] h-[50px]" />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { Cta, Hero2, SectionImageLeft2, SectionImageRight2 } from "@/components/shared/Reusables"
+import { Cta, Hero2, SectionImageLeft2, SectionImageRight2, NumberIcon } from "@/components/shared/Reusables";
 
 export default function HowItWorks() {
     return(
@@ -10,6 +10,7 @@ export default function HowItWorks() {
             />
 
             <section className="">
+                <NumberIcon imgSrc="/assets/icons/icon-number-01.png" imgAlt="1" />
                 <SectionImageRight2 
                     heading=""
                     paragraphs={
@@ -24,12 +25,13 @@ export default function HowItWorks() {
                     imgWidth={300}
                     imgHeight={300}
                 />
+
+                <NumberIcon imgSrc="/assets/icons/icon-number-02.png" imgAlt="2" />                
                 <SectionImageLeft2
                     heading=""
                     paragraphs={
                         <div>
-                            <p className="text-[20px] font-bold">Create Verifiable Claims <br />
-                            </p>                            
+                            <p className="text-[20px] font-bold">Create Verifiable Claims</p>                            
                             <ul className="text-[20px] list-disc">
                                 <li>Work History Veridaq: request and receive verifiable records of your work relationships with organizations.</li>
                                 <li>Individual Reference/Recommendation Veridaq: request and obtain verifiable references or recommendations from other individuals.</li>
@@ -44,6 +46,8 @@ export default function HowItWorks() {
                     imgWidth={400}
                     imgHeight={400}
                 />
+
+                <NumberIcon imgSrc="/assets/icons/icon-number-03.png" imgAlt="3" />
                 <SectionImageRight2 
                     heading=""
                     paragraphs={
@@ -58,6 +62,8 @@ export default function HowItWorks() {
                     imgWidth={400}
                     imgHeight={400}
                 />
+
+                <NumberIcon imgSrc="/assets/icons/icon-number-04.png" imgAlt="4" />
                 <SectionImageLeft2 
                     heading=""
                     paragraphs={
@@ -74,6 +80,8 @@ export default function HowItWorks() {
                     imgWidth={400}
                     imgHeight={400}
                 />
+
+                <NumberIcon imgSrc="/assets/icons/icon-number-05.png" imgAlt="5" />
                 <SectionImageRight2
                     heading=""
                     paragraphs={
