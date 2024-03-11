@@ -110,7 +110,7 @@ export default function ForOrganization() {
             </section>
             <Cta 
                 paragraph = {
-                  <p className="font-bold text-[32px]">Ready to streamline your reference verification processes? 
+                  <p className="font-bold text-[28px] md:text-[32px] lg:text-[32px] xl:text-[32px]">Ready to streamline your reference verification processes? 
                   Sign up for Veridaq today and experience the future of reference checks for organizations. 
                   Join the growing community of organizations who trust Veridaq for their verification needs.</p>
                 }

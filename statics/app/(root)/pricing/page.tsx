@@ -125,7 +125,7 @@ export default function Pricing() {
 
             <Cta
                 paragraph = {
-                <p className="text-lg"> 
+                <p className="text-[28px] md:text-[32px] lg:text-[32px] xl:text-[32px]"> 
                     Start streamlining your reference verification process with Veridaq.com today. Sign Up Now to get started!
                 </p>
                 }

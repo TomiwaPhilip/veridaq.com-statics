@@ -99,7 +99,7 @@ export default function HowItWorks() {
             </section>
             <Cta 
                 paragraph = {
-                  <p className="font-bold text-[32px]">Ready to experience the Veridaq.com difference? 
+                  <p className="font-bold text-[28px] md:text-[32px] lg:text-[32px] xl:text-[32px]">Ready to experience the Veridaq.com difference? 
                   Sign Up Now and start enjoying a smarter, faster, and more secure reference check experience! </p>
                 }
             />

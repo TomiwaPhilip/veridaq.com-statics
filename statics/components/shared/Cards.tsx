@@ -8,7 +8,7 @@ interface Props {
 }
 export function Card({ heading, subheading, cardElements }: Props) {
   return (
-    <div className="border border-[] rounded-lg px-3 w-[18rem] py-10">
+    <div className="border-2 rounded-lg px-3 w-[18rem] py-10">
       <p className="font-semibold text-[28px] text-center mb-5">{heading}</p>
       <p className="font-semibold text-[20px] text-center mb-5">{subheading}</p>
       <div className="mb-5">{cardElements}</div>

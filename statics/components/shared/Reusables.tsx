@@ -154,12 +154,15 @@ export function SectionImageLeft2({
 }: prop) {
   return (
     <div className="">
-      <div className="flex justify-center items-center gap-10">
-        <div className="w-[60%] p-5">
-          <div className="text-[24px] text-justify">{paragraphs}</div>
+      <div className="flex flex-col justify-center items-center gap-5">
+        <div className="p-5 w-full">
+          <div className="text-center">
+            <p className="text-lg md:text-xl lg:text-2xl">{heading}</p>
+            <div className="text-sm md:text-base lg:text-lg">{paragraphs}</div>
+          </div>
         </div>
-        <div className="w-[40%] p-5">
-          <img src={imgSrc} alt={imgAlt} className="w-full h-full" />
+        <div className="p-5 w-full">
+          <img src={imgSrc} alt={imgAlt} className="w-full h-auto" />
         </div>
       </div>
     </div>
@@ -252,13 +255,21 @@ export function Footer() {
         <div className="flex flex-col w-full md:w-auto items-center md:items-start">
           <p className="text-[#EA098D] font-bold text-2xl mb-4">Contact</p>
           <Link href={"/contact"} passHref>
-            <p className="font-medium text-lg">Contact Us</p>
+            <p className="font-medium text-lg">Contact Form</p>
           </Link>
-          <Link href={"/support"} passHref>
-            <p className="font-medium text-lg">Support</p>
-          </Link>
+          <p className="font-medium text-lg">Lagos Island, 200100, Nigeria.</p>
+          <p className="font-medium text-lg">admin@veridaq.com</p>
+          <div className="flex gap-3">
+            <a href={"/contact"}>
+              <img src="/assets/icons/linkedin.png" alt="linkedin" />
+            </a>
+            <a href={"/contact"}>
+              <img src="/assets/icons/twitter.png" alt="twitter" />
+            </a>
+          </div>
         </div>
       </div>
+      <p className="text-center">All rights reserved by Veridaq. © 2024</p>
     </footer>
   );
 }

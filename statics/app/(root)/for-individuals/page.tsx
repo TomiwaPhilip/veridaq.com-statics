@@ -112,7 +112,7 @@ export default function ForIndividual() {
             </section>
             <Cta 
                 paragraph = {
-                  <p className="font-bold text-[32px]">Ready to take control of your reference verification process? 
+                  <p className="font-bold text-[28px] md:text-[32px] lg:text-[32px] xl:text-[32px]">Ready to take control of your reference verification process? 
                   <br /> Sign up for Veridaq today and experience the future of reference checks. 
                   Join thousands of individuals who trust Veridaq for their verification needs. </p>
                 }
