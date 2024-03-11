@@ -11,6 +11,9 @@ export default function Pricing() {
                 both individuals and organizations. Take a look at our pricing plans
                 below:"
             />
+            
+            <img src="/assets/icons/blur.png" alt="Blob" className="blob-bottom-right" />
+
             <section className="mt-[100px]"> 
                 <p className="font-bold text-[28px] md:text-[36px] lg:text-[36px] xl:text-[36px] mb-10">For Individuals</p>
                 <div className="flex flex-col md:flex-row justify-center gap-10">
@@ -63,6 +66,9 @@ export default function Pricing() {
             </section>
             <section className="mt-[100px]"> 
                 <p className="font-bold text-[28px] md:text-[36px] lg:text-[36px] xl:text-[36px] mb-10">For Organizations</p>
+                <div className="flex items-center justify-center">
+                    <img src="/assets/icons/blob.png" alt="Blob" className="blob-center" />
+                </div>
                 <div className="flex flex-col md:flex-row justify-center gap-10">
                     <Card 
                         heading="Freemium Plan"

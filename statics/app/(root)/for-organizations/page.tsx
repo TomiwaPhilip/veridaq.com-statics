@@ -9,6 +9,8 @@ export default function ForOrganization() {
                 Here's how Veridaq can benefit your organization:"
             />
 
+            <img src="/assets/icons/blur.png" alt="Blob" className="blob-bottom-right" />
+
             <section className="">
                 <NumberIcon imgSrc="/assets/icons/icon-number-01.png" imgAlt="1" />
                 <SectionImageRight2 
@@ -45,6 +47,9 @@ export default function ForOrganization() {
                 />
 
                 <NumberIcon imgSrc="/assets/icons/icon-number-03.png" imgAlt="3" />
+                <div className="flex items-center justify-center">
+                    <img src="/assets/icons/blob.png" alt="Blob" className="blob-center" />
+                </div>
                 <SectionImageRight2 
                     heading=""
                     paragraphs={

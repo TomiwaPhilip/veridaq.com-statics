@@ -132,11 +132,11 @@ export function SectionImageRight2({
 }: prop) {
   return (
     <div className="">
-      <div className="flex flex-col justify-center items-center gap-5">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
         <div className="p-5 w-full">
           <img src={imgSrc} alt={imgAlt} className="w-full h-auto" />
         </div>
-        <div className="p-5 text-center w-full">
+        <div className="p-5 text-center sm:text-left w-full">
           <p className="text-lg md:text-xl lg:text-2xl">{heading}</p>
           <div className="text-sm md:text-base lg:text-lg">{paragraphs}</div>
         </div>
@@ -154,9 +154,9 @@ export function SectionImageLeft2({
 }: prop) {
   return (
     <div className="">
-      <div className="flex flex-col justify-center items-center gap-5">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
         <div className="p-5 w-full">
-          <div className="text-center">
+          <div className="text-center sm:text-left">
             <p className="text-lg md:text-xl lg:text-2xl">{heading}</p>
             <div className="text-sm md:text-base lg:text-lg">{paragraphs}</div>
           </div>
@@ -204,9 +204,10 @@ export function Hero2({ heading }: { heading: string }) {
 // This is the Call to Action component
 export function Cta({ paragraph }: { paragraph: ReactNode }) {
   return (
-    <section className="text-center mb-8 md:mb-12 lg:mb-16 xl:mb-20 mt-[12rem]">
+    <section className="text-center mb-8 md:mb-20 lg:mb-20 xl:mb-20 mt-[12rem]">
+      <img src="/assets/icons/blob.png" alt="Blob" className="blob-center2" />
       <div className="container mx-auto px-4 md:px-8 lg:px-12 xl:px-20">
-        <div className="p-8 md:p-10 lg:p-12 xl:p-16 rounded-lg border-[#694C9F] border-4">
+        <div className="p-8 md:p-10 lg:p-12 xl:p-16 rounded-lg border-[#FFFFFF] border-4 bg-[#554957]">
           <div className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold leading-normal mb-8 md:mb-10 lg:mb-12 xl:mb-16">
             {paragraph}
           </div>
@@ -215,13 +216,16 @@ export function Cta({ paragraph }: { paragraph: ReactNode }) {
           </div>
         </div>
       </div>
+      <div className="flex items-center justify-center">
+        <img src="/assets/icons/blob.png" alt="Blob" className="blob-center" />
+      </div>
     </section>
   );
 }
 
 export function Footer() {
   return (
-    <footer className="py-5">
+    <footer className="py-5 bg-[#38313A]">
       <div className="container mx-auto flex flex-col md:flex-row justify-center items-center md:justify-around md:items-start space-y-8 md:space-y-0 md:space-x-8 p-10">
         {/* Menu section */}
         <div className="flex flex-col w-full md:w-auto items-center md:items-start">

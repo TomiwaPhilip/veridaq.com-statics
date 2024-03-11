@@ -15,6 +15,7 @@ export default function Home() {
           imgHeight={1200}
           imgAlt="hero"
         />
+        <img src="/assets/icons/blur.png" alt="Blob" className="blob-bottom-right" />
       </section>
       <section className="mt-[100px]"> 
         <SectionImageRight
@@ -33,6 +34,9 @@ export default function Home() {
          />
       </section>
       <section className="mt-[100px]"> 
+        <div className="flex items-center justify-center">
+            <img src="/assets/icons/blob.png" alt="Blob" className="blob-center" />
+        </div>
         <SectionImageLeft
           imgSrc="/assets/images/Values.png"
           imgWidth={1200}

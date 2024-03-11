@@ -20,3 +20,29 @@ body {
 .veridaq-primary-1 {
   color: #694C9F
 } 
+
+
+.blob-bottom-right {
+  position: absolute; /* Change from fixed to absolute */
+  bottom: 0;
+  right: 0;
+  width: 400px; /* Adjust the width as needed */
+  height: auto; /* To maintain aspect ratio */
+  z-index: -1; /* Ensure the blob is behind other content */
+}
+
+.blob-center {
+  position: absolute;
+  width: 500px; /* Adjust the width as needed */
+  height: auto; /* To maintain aspect ratio */
+  z-index: -1; /* Ensure the blob is behind other content */
+}
+
+.blob-center2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 500px; /* Adjust the width as needed */
+  height: auto; /* To maintain aspect ratio */
+  z-index: -1; /* Ensure the blob is behind other content */
+}
+
