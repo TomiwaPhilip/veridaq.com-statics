@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import { ReactNode } from "react";
+import { useInView } from "react-intersection-observer";
 
 import { OutlineButtonBig, NoOutlineButtonBig } from "./Button";
 import Link from "next/link";
