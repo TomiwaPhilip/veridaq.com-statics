@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@serwist/next": "^8.4.4",
+    "@serwist/precaching": "^8.4.4",
+    "@serwist/sw": "^8.4.4"
+  }
+}

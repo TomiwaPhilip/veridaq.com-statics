@@ -1,0 +1,19 @@
+{
+  "id": "veridaq-1",
+  "name": "Veridaq.com",
+  "short_name": "Veridaq",
+  "description": "The automatic reference check for your HR needs.",
+  "icons": [
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait"
+}

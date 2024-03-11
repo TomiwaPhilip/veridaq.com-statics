@@ -5,6 +5,7 @@ import Nav from "@/components/shared/Nav";
 import { Footer } from "@/components/shared/Reusables";
 import BottomBar from "@/components/shared/BottomBar";
 export const metadata: Metadata = {
+  manifest: "/manifest.json",
   title: "Veridaq.com",
   description: "The platform for automated reference checks for your HR needs.",
 };
