@@ -1,7 +1,5 @@
-import Image from "next/image"
-
 import { Card, Checks } from "@/components/shared/Cards"
-import { NoOutlineButton } from "@/components/shared/Button"
+import { NoOutlineButtonBig } from "@/components/shared/Button"
 import { Cta, Hero2 } from "@/components/shared/Reusables"
 
 export default function Pricing() {
@@ -14,100 +12,99 @@ export default function Pricing() {
                 below:"
             />
             <section className="mt-[100px]"> 
-                <p className="font-bold text-[36px] mb-10">For Individuals</p>
-                <div className="flex justify-center gap-10">
+                <p className="font-bold text-[28px] md:text-[36px] lg:text-[36px] xl:text-[36px] mb-10">For Individuals</p>
+                <div className="flex flex-col md:flex-row justify-center gap-10">
                     <Card 
                         heading="Freemium Plan"
                         subheading="Free to request and issue"
                         cardElements={
-                            <div>
-                                <Checks 
-                                    paragraphs="Work History Veridaq"
-                                />
-                                <Checks 
-                                    paragraphs="Individual Reference or Recommendation Veridaq"
-                                />
-                            </div>
+                        <div>
+                            <Checks 
+                            paragraphs="Work History Veridaq"
+                            />
+                            <Checks 
+                            paragraphs="Individual Reference or Recommendation Veridaq"
+                            />
+                        </div>
                         }
                     />
                     <Card 
                         heading="Basic Subscription Plan"
                         subheading="$4 per annum billing: (N2,400 users in Nigeria)"
                         cardElements={
-                            <div>
-                                <Checks 
-                                    paragraphs="To access and manage your Work History Veridaq and Individual 
-                                    Reference/Recommendation Veridaq in the Veridaq Repository."
-                                />
-                            </div>
+                        <div>
+                            <Checks 
+                            paragraphs="To access and manage your Work History Veridaq and Individual Reference/Recommendation Veridaq in the Veridaq Repository."
+                            />
+                        </div>
                         }
                     />
                     <Card 
                         heading="Pay-to-Issue Plan"
                         subheading="Fees at organisation preferred pricing"
                         cardElements={
-                            <div>
-                                <Checks 
-                                    paragraphs="Membership Veridaq"
-                                />
-                                <Checks 
-                                    paragraphs="Studentship Status Veridaq"
-                                />
-                                <Checks 
-                                    paragraphs="Document Verification Veridaq"
-                                />
-                            </div>
+                        <div>
+                            <Checks 
+                            paragraphs="Membership Veridaq"
+                            />
+                            <Checks 
+                            paragraphs="Studentship Status Veridaq"
+                            />
+                            <Checks 
+                            paragraphs="Document Verification Veridaq"
+                            />
+                        </div>
                         }
                     />
                 </div>
                 <div className="mt-10 text-center">
-                    <NoOutlineButton name="Sign Up Now" />
+                    <NoOutlineButtonBig name="Sign Up Now" />
                 </div>
             </section>
             <section className="mt-[100px]"> 
-                <p className="font-bold text-[36px] mb-10">For Organizations</p>
-                <div className="flex justify-center gap-10">
+                <p className="font-bold text-[28px] md:text-[36px] lg:text-[36px] xl:text-[36px] mb-10">For Organizations</p>
+                <div className="flex flex-col md:flex-row justify-center gap-10">
                     <Card 
                         heading="Freemium Plan"
                         subheading="Free to Issue and No Earning Plan"
                         cardElements={
-                            <div>
-                                <Checks 
-                                    paragraphs="Work History Veridaq"
-                                />
-                            </div>
+                        <div>
+                            <Checks 
+                            paragraphs="Work History Veridaq"
+                            />
+                        </div>
                         }
                     />
                     <Card 
                         heading="Get Paid"
                         subheading="Pay to Issue with Earning Plan"
                         cardElements={
-                            <div>
-                                <Checks 
-                                    paragraphs="Membership Veridaq"
-                                />
-                                <Checks 
-                                    paragraphs="Studentship Status Veridaq"
-                                />
-                                <p className="font-semibold text-[20px] text-center mb-5">75% to Organisation and 25% to Platform Revenue Model</p>
-                                <Checks 
-                                    paragraphs="Document Verification Veridaq"
-                                />
-                            </div>
+                        <div>
+                            <Checks 
+                            paragraphs="Membership Veridaq"
+                            />
+                            <Checks 
+                            paragraphs="Studentship Status Veridaq"
+                            />
+                            <p className="font-semibold text-[20px] text-center mb-5">75% to Organisation and 25% to Platform Revenue Model</p>
+                            <Checks 
+                            paragraphs="Document Verification Veridaq"
+                            />
+                        </div>
                         }
                     />
                     <Card 
                         heading="Enterprise Solutions"
                         subheading="Contact us for custom pricing tailored to your organization's specific needs."
                         cardElements={
-                            <div>
-                                {" "}
-                            </div>
+                        <div>
+                            {" "}
+                        </div>
                         }
                     />
                 </div>
                 <div className="mt-10 text-center">
-                    <NoOutlineButton name="Sign Up Now" />
+                    <NoOutlineButtonBig name="Sign Up Now" />
                 </div>
             </section>
             
