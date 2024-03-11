@@ -1,6 +1,6 @@
 {
-  "name": "My awesome PWA app",
-  "short_name": "PWA App",
+  "name": "Veridaq.com",
+  "short_name": "Veridaq",
   "icons": [
     {
       "src": "./assets/images/logo.png",
@@ -19,8 +19,8 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF",
+  "theme_color": "#38313a",
+  "background_color": "#38313a",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait"
