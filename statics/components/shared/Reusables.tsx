@@ -4,7 +4,11 @@ import Image from "next/image";
 import { ReactNode } from "react";
 import { useInView } from "react-intersection-observer";
 
-import { OutlineButtonBig, NoOutlineButtonBig } from "./Button";
+import {
+  OutlineButtonBig,
+  NoOutlineButtonBig,
+  OutlineButtonBig2,
+} from "./Button";
 import Link from "next/link";
 
 // This component is for the Hero section
@@ -39,7 +43,9 @@ export function Hero({
         </p>
         <div className="flex gap-5 pt-5">
           <NoOutlineButtonBig name="Sign up Now" />
-          <OutlineButtonBig name="How it Works" />
+          <Link href={"/how-it-works"}>
+            <OutlineButtonBig2 name="How it Works" />
+          </Link>
         </div>
       </div>
       <div className="md:order-2">
@@ -259,12 +265,15 @@ export function Footer() {
         </div>
 
         {/* Contact section */}
-        <div className="flex flex-col w-full md:w-auto items-center md:items-start">
+        <div className="flex flex-col w-full text-center md:w-auto items-center md:items-start text-left">
           <p className="text-[#EA098D] font-bold text-2xl mb-4">Contact</p>
           <Link href={"/contact"} passHref>
             <p className="font-medium text-lg">Contact Form</p>
           </Link>
-          <p className="font-medium text-lg">Lagos Island, 200100, Nigeria.</p>
+          <p className="font-medium text-lg">
+            Adsoft Online Limited <br />
+            7A, Milverton Road, Ikoyi, Lagos Nigeria
+          </p>
           <p className="font-medium text-lg">admin@veridaq.com</p>
           <div className="flex gap-3">
             <a href={"/contact"}>

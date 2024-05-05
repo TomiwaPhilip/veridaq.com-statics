@@ -5,8 +5,19 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { OutlineButtonSmall, NoOutlineButtonSmall } from "./Button";
+import Modal from "./Modal";
+import { useState } from "react";
 
 export default function Nav() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
   const pathname = usePathname();
 
   // Function to determine if a link should be active
@@ -15,8 +26,8 @@ export default function Nav() {
   };
 
   return (
-    <section>
-      <nav className="fixed top-0 left-0 w-full px-5 border-b border-gray-300 hidden sm:block bg-gradient-to-b bg-transparent pb-1 pt-2 backdrop-blur-2xl">
+    <>
+      <nav className="fixed top-0 left-0 w-full px-5 border-b border-gray-300 hidden bg-gradient-to-b bg-transparent pb-1 pt-2 backdrop-blur-2xl sm:block">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <div className="mr-10 md:hidden lg:block xl:block">
@@ -78,15 +89,16 @@ export default function Nav() {
             <Link href={"/about"}>
               <p className={`text-sm p-2 ${isActiveLink("/about")}`}>About</p>
             </Link>
-            <Link href={"/login"}>
+            <span onClick={handleOpenModal}>
               <OutlineButtonSmall name="Log in" />
-            </Link>
-            <Link href={"/signup"}>
+            </span>
+            <span onClick={handleOpenModal}>
               <NoOutlineButtonSmall name="Sign Up" />
-            </Link>
+            </span>
           </div>
         </div>
       </nav>
+      {/* {Nav for mobile screens} */}
       <nav className="fixed top-0 left-0 w-full px-5 border-b border-gray-300 bg-gradient-to-b sm:hidden bg-transparent pb-1 pt-2 backdrop-blur-2xl">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -102,7 +114,10 @@ export default function Nav() {
           </div>
 
           {/* Avatar */}
-          <div className="text-right flex items-center justify-center gap-5">
+          <div
+            className="text-right flex items-center justify-center gap-5"
+            onClick={handleOpenModal}
+          >
             {/* Replace this placeholder image with your avatar */}
             <Image
               src={"/assets/icons/avatar.png"}
@@ -114,6 +129,7 @@ export default function Nav() {
           </div>
         </div>
       </nav>
-    </section>
+      <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
+    </>
   );
 }
