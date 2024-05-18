@@ -46,15 +46,18 @@ export default function Home() {
           paragraphs = {
             <p>
                 <span className="mt-10">
-                    <span className="font-bold">Trust: </span>Trust is the cornerstone of our platform. We're committed to building trust through transparent and verifiable processes.
+                    <span className="font-bold">Veracity: </span>Upholding truthfulness and authenticity in all aspects of our 
+                    operations and committing to providing accurate and verifiable information.
                   </span>
                   <br /> <br />
                   <span className="mt-10">
-                    <span className="font-bold">Integrity: </span>We uphold the highest standards of integrity in all our interactions. Our platform ensures the authenticity of every verifiable claim.
+                    <span className="font-bold">Collaboration: </span>Fostering a spirit of teamwork and partnership to achieve
+                     shared goals while embracing diverse perspectives and expertise in information management service.
                   </span>
                 <br /> <br />
                 <span className="mt-10">
-                  <span className="font-bold">Innovation: </span>Innovation is at the heart of what we do. We continuously strive to bring the latest technology to simplify and enhance the reference check experience
+                  <span className="font-bold">Improvement: </span>Continuously seeking ways to efficiently and 
+                  effectively improve our process, impact and partner\'s experience.
                 </span>
             </p>
           }

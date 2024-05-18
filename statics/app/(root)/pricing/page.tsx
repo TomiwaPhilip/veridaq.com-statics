@@ -23,28 +23,30 @@ export default function Pricing() {
                         cardElements={
                         <div>
                             <Checks 
-                            paragraphs="Work History Veridaq"
+                            paragraphs="Work Reference"
                             />
                             <Checks 
-                            paragraphs="Individual Reference or Recommendation Veridaq"
+                            paragraphs="Individual Reference/Recommendation"
                             />
                         </div>
                         }
                     />
                     <Card 
-                        heading="Basic Subscription Plan"
-                        subheading="$4 per annum billing: (N2,400 users in Nigeria)"
+                        heading="Veridaq Store Access Fee"
+                        subheading="$20 per annum billing: (N10,000 users in Nigeria)"
                         cardElements={
                         <div>
                             <Checks 
-                            paragraphs="To access and manage your Work History Veridaq and Individual Reference/Recommendation Veridaq in the Veridaq Repository."
+                            paragraphs="
+                            Veridaq Store is a Veridaq repo to store, 
+                            access and manage all received Work References/Recommendation from Organisations and Individuals."
                             />
                         </div>
                         }
                     />
                     <Card 
                         heading="Pay-to-Issue Plan"
-                        subheading="Fees at organisation preferred pricing"
+                        subheading="Fees at Organisation preferred pricing"
                         cardElements={
                         <div>
                             <Checks 
@@ -72,30 +74,31 @@ export default function Pricing() {
                 <div className="flex flex-col md:flex-row justify-center gap-10">
                     <Card 
                         heading="Freemium Plan"
-                        subheading="Free to Issue and No Earning Plan"
+                        subheading="Issuance with No Earning Plan "
                         cardElements={
                         <div>
                             <Checks 
-                            paragraphs="Work History Veridaq"
+                            paragraphs="Work Reference"
                             />
                         </div>
                         }
                     />
                     <Card 
                         heading="Get Paid"
-                        subheading="Pay to Issue with Earning Plan"
+                        subheading="Issuing with Earning Plan"
                         cardElements={
                         <div>
                             <Checks 
-                            paragraphs="Membership Veridaq"
+                            paragraphs="Membership Reference"
                             />
                             <Checks 
-                            paragraphs="Studentship Status Veridaq"
+                            paragraphs="Studentship Status Reference"
                             />
-                            <p className="font-semibold text-[20px] text-center mb-5">75% to Organisation and 25% to Platform Revenue Model</p>
+                            <p className="font-semibold text-[20px] text-center mb-5">50% to Organisation and 50% to Platform Revenue Model</p>
                             <Checks 
-                            paragraphs="Document Verification Veridaq"
+                            paragraphs="Document Verification Reference"
                             />
+                            <p className="font-semibold text-[20px] text-center mb-5">Document Verification Reference: Fee = Issuing Organisation charge + 30% Markup</p>
                         </div>
                         }
                     />
@@ -118,13 +121,13 @@ export default function Pricing() {
                 <p className="font-bold text-[36px] mb-10">Additional Information</p>
                 <ul className="text-[24px] list-disc pl-4 ml-8">
                     <li className="mb-2">
-                        <span className="font-bold"> Billing Cycle: </span>Annual billing for Individual Subscription. Custom billing options available for Enterprise Solutions.
+                        Custom billing options available for Enterprise Plan.
                     </li>
                     <li className="mb-2">
-                        <span className="font-bold"> Payment Methods: </span>We accept major credit cardsand electronic transfers.
+                        <span className="font-bold"> Payment Methods: </span> We accept major credit cards and electronic transfers.
                     </li>
                     <li className="mb-2">
-                        <span className="font-bold"> Customer Support: </span>Our dedicated support team isavailable to assist you with any questions or concerns.
+                        <span className="font-bold"> Customer Support: </span>Our dedicated support team is available to assist you with any questions or concerns.
                     </li>
                 </ul>
             </section>

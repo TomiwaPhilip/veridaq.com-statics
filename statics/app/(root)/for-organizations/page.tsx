@@ -4,9 +4,10 @@ export default function ForOrganization() {
     return(
         <main className="mt-[150px] mx-[50px]">
             <Hero2
-                heading="Welcome to Veridaq, where we empower organizations with seamless reference verification solutions. 
-                Our platform is designed to simplify the reference check process, saving you time, effort, and resources. 
-                Here's how Veridaq can benefit your organization:"
+                heading="Welcome to Veridaq, where we empower organizations with seamless reference 
+                verification solutions. Our platform is designed to simplify the reference check process, 
+                saving you time, effort, and resources. Here's how Veridaq can benefit your 
+                organization/association/company/institution:"
             />
 
             <img src="/assets/icons/blur.png" alt="Blob" className="blob-bottom-right" />
@@ -19,7 +20,8 @@ export default function ForOrganization() {
                         <div className="">
                             <p className="text-[20px] font-bold pb-5">Streamlined Verification Process </p>
                             <p className="text-[20px]">Say goodbye to manual reference checks. 
-                            Veridaq automates the verification process, allowing you to issue and manage verifiable claims effortlessly.</p>
+                            Veridaq automates the verification process, allowing you to issue and manage 
+                            verifiable claims effortlessly.</p>
                         </div>
                     }
                     imgSrc="/assets/images/sign-up.png"
@@ -55,7 +57,7 @@ export default function ForOrganization() {
                     paragraphs={
                         <div>
                             <p className="text-[20px] font-bold pb-5">Flexible Issuance Options</p>
-                            <p className="text-[20px]">Whether you want to issue work Reference veridaq,,memberships, studentship status, 
+                            <p className="text-[20px]">Whether you want to issue work reference, memberships, studentship status, 
                             or document verification veridaq, Veridaq offers flexible issuance options to suit your needs</p>
                         </div>
                     }

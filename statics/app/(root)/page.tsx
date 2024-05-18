@@ -33,6 +33,10 @@ export default function Home() {
                 <span className="mt-10">
                   <span className="font-bold">Cost-Effective: </span>Cut down on costs associated with traditional reference checks. Veridaq.com offers a cost-effective solution for your verification needs.
                 </span>
+                <br /> <br />
+                <span className="mt-10">
+                  <span className="font-bold">Easy and Secured Access: </span>Veridaq.com breaks down barriers to background information access within a secured framework.
+                </span>
               </p>
           }
           imgSrc="/assets/images/Veridaq_Check.png"
@@ -50,27 +54,34 @@ export default function Home() {
           imgWidth={1200}
           imgHeight={1200}
           imgAlt="Settings"
-          heading="Verifiable Claims for Every Relationship"
+          heading="Verifiable Claim as-a-Service"
           paragraphs = {
             <p>
                 <span className="mt-10">
-                    <span className="font-bold">Work History Veridaq: </span> Seamlessly verify work relationships between organizations and employees.
+                    <span className="font-bold">Work Reference: </span> Facilitate a verifiable work 
+                    review issued by the organisation to an employee's or independent contractor's 
+                    (past and current)  The review detail could contain work history, roles, 
+                    accomplishments and/or recommendations.
                   </span>
                   <br /> <br />
                   <span className="mt-10">
-                    <span className="font-bold">Individual Reference or Recommendation Veridaq: </span>Obtain verifiable references or recommendations between individuals.
+                    <span className="font-bold">Recommendation/Individual Reference: </span>
+                    Facilitate an Individual-to-Individual verifiable reference on work relationship/review or professional recommendation.
                   </span>
                 <br /> <br />
                 <span className="mt-10">
-                  <span className="font-bold">Membership Veridaq: </span>Establish proof of relationships between organizations or associations professional bodies and the members
+                  <span className="font-bold">Membership Reference: </span>
+                  A verifiable badge on the membership referencing the relationship between the issuing Organisation/Institution/Association and the individual. 
                 </span>
                 <br /> <br />
                 <span className="mt-10">
-                  <span className="font-bold">Studentship Status Veridaq: </span>Verify current studentshipstatus claim automatically
+                  <span className="font-bold">Studentship Status Reference: </span>
+                  This is the issuing institution's verifiable claim infrastructure to seamlessly facilitate its current Studentship Status Referencing.
                 </span>
                 <br /> <br />
                 <span className="mt-10">
-                  <span className="font-bold">Document Verification Veridaq: </span>Ensure the genuineness ofd ocuments through verifiable references.
+                  <span className="font-bold">Document Verification Reference: </span>
+                  Facilitate the authentication of a document genuineness at the click of a button with a verifiable reference.
                 </span>
             </p>
           }

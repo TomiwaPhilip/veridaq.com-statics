@@ -35,11 +35,13 @@ export default function HowItWorks() {
                         <div>
                             <p className="text-[20px] font-bold">Create Verifiable Claims</p>                            
                             <ul className="text-[20px] list-disc">
-                                <li>Work History Veridaq: request and receive verifiable records of your work relationships with organizations.</li>
-                                <li>Individual Reference/Recommendation Veridaq: request and obtain verifiable references or recommendations from other individuals.</li>
-                                <li>Membership Veridaq: establish proof of relationships with request for membership verifiable badge from associations/Alumni/Professional bodies </li>
-                                <li>Studentship Status Veridaq: Studentship Status claim verifiable badge for current students.</li>
-                                <li>Document Verification Veridaq: ensure the authenticity of documents through verifiable references.</li>
+                                <li>Work Reference: request/issue/receive verifiable records of work review between organisation and individual.</li>
+                                <li>Individual Reference/Recommendation: request/issuance of verifiable references 
+                                    on work relationship or recommendations between individuals.</li>
+                                <li>Membership Veridaq: provide verifiable proof on relationships between the individual 
+                                    and organisation users (Alumni, Professional, Social and Religious bodies). </li>
+                                <li>Studentship Status Reference: current studentship status referencing infrastructure for Institution\'s.</li>
+                                <li>Document Authentication Reference: enables the authenticity of documents through verifiable references.</li>
                             </ul>
                         </div>
                     }
@@ -58,8 +60,9 @@ export default function HowItWorks() {
                     paragraphs={
                         <div>
                             <p className="text-[20px] font-bold">Verification Loop</p>
-                            <p className="text-[20px]">Our platform employs an automated verification loop that ensures accuracy and security throughout the process. The verification loop 
-                                is designed to provide a reliable and tamper-proof system for the exchange of verifiable claims between entities.</p>
+                            <p className="text-[20px]">Our platform employs an automated verification loop that ensures accuracy 
+                            and security throughout the process. The verification loop is designed to provide a reliable and 
+                            tamper-proof system for the exchange of verifiable claims between entities.</p>
                         </div>
                     }
                     imgSrc="/assets/images/loop.png"

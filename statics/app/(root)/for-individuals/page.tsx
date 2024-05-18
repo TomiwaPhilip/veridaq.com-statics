@@ -6,7 +6,8 @@ export default function ForIndividual() {
             <Hero2
                 heading="Welcome to Veridaq, your trusted partner for seamless reference verification. 
                 Our platform is designed to empower individuals like you with secure and verifiable claims, 
-                making the reference check process effortless and reliable. Here's how Veridaq can benefit you:"
+                making the reference check process effortless and reliable while you own and manage access 
+                to your verifiable claims. Here's how Veridaq can benefit you:"
             />
 
             <img src="/assets/icons/blur.png" alt="Blob" className="blob-bottom-right" />
@@ -35,9 +36,10 @@ export default function ForIndividual() {
                         <div>
                             <p className="text-[20px] font-bold pb-5">Secure and Transparent Records</p>                            
                             <p className="text-[20px]">
-                                Rest assured knowing that your reference verification is secure and transparent. 
-                                Veridaq provides clear and tamper-proof records of your work history, individual references, 
-                                memberships, studentship status, and document verification.
+                                Assurance that your reference verification is secure, transparent and you are 
+                                always in the know of its usage. Veridaq provides clear and tamper-proof records 
+                                of your work review/recommendations/individual references, memberships, studentship 
+                                status, and document verification.
                             </p>
                         </div>
                     }
@@ -72,7 +74,7 @@ export default function ForIndividual() {
                     paragraphs={
                         <div>
                             <p className="text-[20px] font-bold pb-5">Flexible Pricing Options</p> 
-                            <p className="text-[20px]">Veridaq offers flexible pricing options to suit your needs. Work history and 
+                            <p className="text-[20px]">Veridaq offers flexible pricing options to suit your needs. Work Reference and 
                             individual reference verifiable claims are available on a freemium model, while other types of claims 
                             are offered at competitive rates.</p>
                         </div>
