@@ -42,7 +42,7 @@ export default function Home() {
           imgWidth={1200}
           imgHeight={1200}
           imgAlt="Settings"
-          heading="Our Values: Trust, Integrity, Innovation"
+          heading="Our Values: Veracity, Collaboration, Improvement"
           paragraphs = {
             <p>
                 <span className="mt-10">
