@@ -284,11 +284,11 @@ export function Footer() {
         {/* Contact section */}
         <div className="flex flex-col w-full text-center md:w-auto items-center md:items-start text-left">
           <p className="text-[#EA098D] font-bold text-2xl mb-4">Contact</p>
-          <a href="mailto:admin@veridaq.com">
-            <p className="font-medium text-lg">Contact Us</p>
-          </a>
+          <Link href="/contact">
+            <p className="font-medium text-lg">Contact</p>
+          </Link>
+          <p className="font-medium text-lg">Adsoft Online Limited</p>
           <p className="font-medium text-lg">
-            Adsoft Online Limited <br />
             7A, Milverton Road, Ikoyi, Lagos Nigeria
           </p>
           <p className="font-medium text-lg">admin@veridaq.com</p>
