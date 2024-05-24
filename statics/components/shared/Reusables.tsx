@@ -264,6 +264,23 @@ export function Footer() {
           </Link>
         </div>
 
+        {/* Legal section */}
+        <div className="flex flex-col w-full md:w-auto items-center md:items-start">
+          <p className="text-[#EA098D] font-bold text-2xl mb-4">Legal</p>
+          <Link href={"/privacy-policy"} passHref>
+            <p className="font-medium text-lg">Privacy Policy</p>
+          </Link>
+          <Link href={"/terms-condition"} passHref>
+            <p className="font-medium text-lg">Terms & Condition</p>
+          </Link>
+          <Link href={"/data-protection"} passHref>
+            <p className="font-medium text-lg">Data Protection</p>
+          </Link>
+          <Link href={"/refund-policy"} passHref>
+            <p className="font-medium text-lg">Refund Policy</p>
+          </Link>
+        </div>
+
         {/* Contact section */}
         <div className="flex flex-col w-full text-center md:w-auto items-center md:items-start text-left">
           <p className="text-[#EA098D] font-bold text-2xl mb-4">Contact</p>
