@@ -3,12 +3,12 @@ import React from 'react';
 export default function TermsAndConditions(){
   return (
     <div className="mx-[50px] mt-[150px] pt-[10]">
-      <h2 className="text-2xl text-white mb-4">TERMS AND CONDITIONS</h2>
+      <h2 className="text-2xl text-white mb-4 font-bold">TERMS AND CONDITIONS</h2>
       <p className="text-white mb-4">
         Welcome to Veridaq, provided by Adsoft Online Ltd, trading as "VERIDAQ" (referred to as "Company", "Us", "We", or "Our"). These Terms and Conditions ("Terms") govern your use of our products and services. By accessing or using Veridaq Services, you agree to be bound by these Terms. Please read them carefully.
       </p>
 
-      <h4 className="text-lg text-white mb-2">1. Services</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">1. Services</h4>
       <p className="text-white mb-4">
         a. <strong>Definition:</strong> The "Services" encompass all products and services provided by Veridaq and its legal affiliates via software, websites, and offerings.
       </p>
@@ -22,7 +22,7 @@ export default function TermsAndConditions(){
         d. <strong>User Requirements:</strong> To use our Services, you must have a valid account, provide accurate information, and comply with age requirements.
       </p>
 
-      <h4 className="text-lg text-white mb-2">2. Registration</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">2. Registration</h4>
       <p className="text-white mb-4">
         a. <strong>Accuracy:</strong> You agree to provide accurate registration information and update it promptly.
       </p>
@@ -30,27 +30,27 @@ export default function TermsAndConditions(){
         b. <strong>Account Security:</strong> You are responsible for maintaining the security of your account and password. Notify us immediately of any unauthorized use.
       </p>
 
-      <h4 className="text-lg text-white mb-2">3. Communications</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">3. Communications</h4>
       <p className="text-white mb-4">
         a. By using our Service, you consent to receive communications from us. You may opt out of these communications at any time.
       </p>
 
-      <h4 className="text-lg text-white mb-2">4. Purchases</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">4. Purchases</h4>
       <p className="text-white mb-4">
         a. When making a purchase, you must provide accurate payment information. We may use third-party services for payment processing.
       </p>
 
-      <h4 className="text-lg text-white mb-2">5. Analytics</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">5. Analytics</h4>
       <p className="text-white mb-4">
         a. We may use third-party Service Providers to monitor and analyze Service usage.
       </p>
 
-      <h4 className="text-lg text-white mb-2">6. Contests, Sweepstakes, and Promotions</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">6. Contests, Sweepstakes, and Promotions</h4>
       <p className="text-white mb-4">
         a. Additional rules may apply to promotions, contests, or sweepstakes. Review these rules along with our Privacy Policy.
       </p>
 
-      <h4 className="text-lg text-white mb-2">7. Restrictions on Your Use of the Services</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">7. Restrictions on Your Use of the Services</h4>
       <p className="text-white mb-4">
         a. <strong>False Identity:</strong> Creating or using a false identity, misrepresenting your identity, or creating a user profile for anyone other than yourself.
       </p>
@@ -109,67 +109,67 @@ export default function TermsAndConditions(){
         s. <strong>Service Interference:</strong> Otherwise attempting to interfere with the proper working of the service.
       </p>
 
-      <h4 className="text-lg text-white mb-2">8. Monitoring and Remedy</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">8. Monitoring and Remedy</h4>
       <p className="text-white mb-4">
         a. We reserve the right to monitor and take action against violations of these Terms.
       </p>
 
-      <h4 className="text-lg text-white mb-2">9. Responsibility for Content</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">9. Responsibility for Content</h4>
       <p className="text-white mb-4">
         a. We are not responsible for user-generated content and may remove objectionable content.
       </p>
 
-      <h4 className="text-lg text-white mb-2">10. Privacy</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">10. Privacy</h4>
       <p className="text-white mb-4">
         a. By using our Services, you consent to the processing of your personal information as outlined in our Privacy Policy.
       </p>
 
-      <h4 className="text-lg text-white mb-2">11. Intellectual Property</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">11. Intellectual Property</h4>
       <p className="text-white mb-4">
         a. Veridaq retains all intellectual property rights. Trademarks and logos used in connection with our Services are the property of their respective owners.
       </p>
 
-      <h4 className="text-lg text-white mb-2">12. Copyright Policy</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">12. Copyright Policy</h4>
       <p className="text-white mb-4">
         a. We respect intellectual property rights and respond to copyright infringement claims.
       </p>
 
-      <h4 className="text-lg text-white mb-2">13. Error Reporting and Feedback</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">13. Error Reporting and Feedback</h4>
       <p className="text-white mb-4">
         a. You may provide feedback, which we may use without obligation. We are not liable for third-party content.
       </p>
 
-      <h4 className="text-lg text-white mb-2">14. Disclaimer Of Warranty</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">14. Disclaimer Of Warranty</h4>
       <p className="text-white mb-4">
         a. Our Services are provided "as is." We do not warrant the accuracy or reliability of the content.
       </p>
 
-      <h4 className="text-lg text-white mb-2">15. Limitation Of Liability</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">15. Limitation Of Liability</h4>
       <p className="text-white mb-4">
         a. We are not liable for indirect, punitive, or consequential damages.
       </p>
 
-      <h4 className="text-lg text-white mb-2">16. Termination</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">16. Termination</h4>
       <p className="text-white mb-4">
         a. You may terminate your account at any time. Certain provisions will survive termination.
       </p>
 
-      <h4 className="text-lg text-white mb-2">17. Governing Law</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">17. Governing Law</h4>
       <p className="text-white mb-4">
         a. These Terms are governed by the laws of Nigeria.
       </p>
 
-      <h4 className="text-lg text-white mb-2">18. Amendments To Terms</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">18. Amendments To Terms</h4>
       <p className="text-white mb-4">
         a. We may amend these Terms at any time. Your continued use of the Service constitutes acceptance of any changes.
       </p>
 
-      <h4 className="text-lg text-white mb-2">19. Acknowledgment</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">19. Acknowledgment</h4>
       <p className="text-white mb-4">
         a. By using our Service, you acknowledge and agree to these Terms.
       </p>
 
-      <h4 className="text-lg text-white mb-2">20. Contact Us</h4>
+      <h4 className="text-lg text-white mb-2 font-bold">20. Contact Us</h4>
       <p className="text-white">
         a. For feedback or support, contact us at legal@veridaq.com.
       </p>
