@@ -276,13 +276,13 @@ export function Footer() {
           </p>
           <p className="font-medium text-lg">admin@veridaq.com</p>
           <div className="flex gap-3">
-            <a href={"https://twitter.com/veridaq"} target="_blank">
-              <img src="/assets/icons/linkedin.png" alt="linkedin" />
-            </a>
             <a
               href={"https://www.linkedin.com/company/veridaq/"}
               target="_blank"
             >
+              <img src="/assets/icons/linkedin.png" alt="linkedin" />
+            </a>
+            <a href={"https://twitter.com/veridaq"} target="_blank">
               <img src="/assets/icons/twitter.png" alt="twitter" />
             </a>
           </div>
