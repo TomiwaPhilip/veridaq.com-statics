@@ -98,7 +98,7 @@ export default function Pricing() {
                             <Checks 
                             paragraphs="Document Verification Reference"
                             />
-                            <p className="font-semibold text-[20px] text-center mb-5">Document Verification Reference: Fee = Issuing Organisation charge + 30% Markup</p>
+                            <p className="font-semibold text-[20px] text-center mb-5">Document Verification Reference: Fee = Issuing Organisation charge + 50% Markup</p>
                         </div>
                         }
                     />

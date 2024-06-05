@@ -6,10 +6,10 @@ export default function Home() {
       <section>
         <Hero 
           heading="Welcome to Veridaq.com"
-          subheading="Automate Your Reference Checks with Verifiable Claims."
-          paragraphs="Unlock the power of seamless reference verification with Veridaq.com.
+          subheading="Automate check on Profile/CV Data with Verifiable Reference."
+          paragraphs="Unlock the power of seamless background information check with Veridaq.com.
           Our platform revolutionizes the way organizations and individuals
-          handle reference checks through secure and verifiable claims."
+          handle HR information verification with secure and verifiable reference."
           imgSrc="/assets/images/Hero.png"
           imgWidth={1200}
           imgHeight={1200}
@@ -23,15 +23,18 @@ export default function Home() {
           paragraphs ={
               <p> 
                   <span className="mt-10">
-                    <span className="font-bold">Efficiency: </span> Say goodbye to time-consuming reference checks.Veridaq.com streamlines the process, saving you valuable time.
+                    <span className="font-bold">Efficient: </span> Say goodbye to time-consuming reference checks.Veridaq.com streamlines the process, saving you valuable time.
                   </span>
                   <br /> <br />
                   <span className="mt-10">
-                    <span className="font-bold">Reliability: </span>Trust in the authenticity of verifiable claims. Our platform ensures the integrity of the information exchanged between entities.
+                    <span className="font-bold">Reliable: </span>Trust in the authenticity of verifiable claims. Our platform ensures the integrity of the information exchanged between entities.
                   </span>
                 <br /> <br />
                 <span className="mt-10">
-                  <span className="font-bold">Cost-Effective: </span>Cut down on costs associated with traditional reference checks. Veridaq.com offers a cost-effective solution for your verification needs.
+                  <span className="font-bold">Cost-Effective: {" "}
+                  </span>
+                  Take away the risk of not verifying either due to expense or negligence with Veriddaq.com. 
+                  False claims, information misrepresentation and forgery do come with huge social and economic costs. 
                 </span>
                 <br /> <br />
                 <span className="mt-10">
@@ -54,7 +57,7 @@ export default function Home() {
           imgWidth={1200}
           imgHeight={1200}
           imgAlt="Settings"
-          heading="Verifiable Claim as-a-Service"
+          heading="Verifiable Reference as-a-Service"
           paragraphs = {
             <p>
                 <span className="mt-10">
