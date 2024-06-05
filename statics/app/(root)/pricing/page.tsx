@@ -33,7 +33,7 @@ export default function Pricing() {
                     />
                     <Card 
                         heading="Veridaq Store Access Fee"
-                        subheading="$20 per annum billing: (N10,000 users in Nigeria)"
+                        subheading="$20 (N10,000 users in Nigeria)"
                         cardElements={
                         <div>
                             <Checks 
