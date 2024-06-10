@@ -45,3 +45,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WHITE_MEADOW_01A3C810F }}
           action: "close"
+          node-version: '20.x'
