@@ -1,3 +1,4 @@
+import CookieNote from "@/components/shared/CookieNote";
 import { Cta, Hero2, SectionImageLeft2, SectionImageRight2, NumberIcon } from "@/components/shared/Reusables";
 
 export default function HowItWorks() {
@@ -111,6 +112,7 @@ export default function HowItWorks() {
                   Sign Up Now and start enjoying a smarter, faster, and more secure reference check experience! </p>
                 }
             />
+            <CookieNote />
         </main>
     )
 }

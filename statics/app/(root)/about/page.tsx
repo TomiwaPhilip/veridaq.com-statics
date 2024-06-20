@@ -1,3 +1,4 @@
+import CookieNote from "@/components/shared/CookieNote";
 import { Cta, Hero, SectionImageLeft, SectionImageRight } from "@/components/shared/Reusables";
 
 export default function Home() {
@@ -74,6 +75,7 @@ export default function Home() {
           </p>
         }
       />
+      <CookieNote />
     </main>
   );
 }

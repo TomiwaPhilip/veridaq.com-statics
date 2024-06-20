@@ -1,3 +1,4 @@
+import CookieNote from '@/components/shared/CookieNote';
 import React from 'react';
 
 export default function RefundPolicy(){
@@ -44,6 +45,7 @@ export default function RefundPolicy(){
       <p className="text-white">
         By using Veridaq's services, you agree to this refund policy and our terms of service. If you have any questions or concerns, please don't hesitate to contact our support team at <a href="mailto:admin@veridaq.com" className="underline text-blue-400">admin@veridaq.com</a>.
       </p>
+      <CookieNote />
     </div>
   );
 };
