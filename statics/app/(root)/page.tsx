@@ -1,7 +1,6 @@
 import getSession from "@/lib/session/getSession";
 
 import { Cta, Hero, SectionImageLeft, SectionImageRight } from "@/components/shared/Reusables";
-import CookieNote from "@/components/shared/CookieNote";
 
 export default async function Home() {
   const session = await getSession();
@@ -23,37 +22,6 @@ export default async function Home() {
         <img src="/assets/icons/blur.png" alt="Blob" className="blob-bottom-right" />
       </section>
       <section className="mt-[100px]">
-        <SectionImageRight
-          heading="Why Veridaq.com?"
-          paragraphs={
-            <p>
-              <span className="mt-10">
-                <span className="font-bold">Efficient: </span> Say goodbye to time-consuming reference checks.Veridaq.com streamlines the process, saving you valuable time.
-              </span>
-              <br /> <br />
-              <span className="mt-10">
-                <span className="font-bold">Reliable: </span>Trust in the authenticity of verifiable claims. Our platform ensures the integrity of the information exchanged between entities.
-              </span>
-              <br /> <br />
-              <span className="mt-10">
-                <span className="font-bold">Cost-Effective: {" "}
-                </span>
-                Take away the risk of not verifying either due to expense or negligence with Veriddaq.com.
-                False claims, information misrepresentation and forgery do come with huge social and economic costs.
-              </span>
-              <br /> <br />
-              <span className="mt-10">
-                <span className="font-bold">Easy and Secured Access: </span>Veridaq.com breaks down barriers to background information access within a secured framework.
-              </span>
-            </p>
-          }
-          imgSrc="/assets/images/Veridaq_Check.png"
-          imgWidth={1200}
-          imgHeight={1200}
-          imgAlt="Veridaq_Check"
-        />
-      </section>
-      <section className="mt-[100px]">
         <div className="flex items-center justify-center">
           <img src="/assets/icons/blob.png" alt="Blob" className="blob-center" />
         </div>
@@ -66,30 +34,36 @@ export default async function Home() {
           paragraphs={
             <p>
               <span className="mt-10">
-                <span className="font-bold">Work Reference: </span> Facilitate a verifiable work
-                review issued by the organisation to an employee's or independent contractor's
-                (past and current)  The review detail could contain work history, roles,
-                accomplishments and/or recommendations.
+                <span className="font-bold">Work Reference: </span>This Veridaq function facilitate 
+                Work Reference request by a employee/freelancer/industrial trainee and
+                its issuance by a workplace/employer to verifiably document and reference 
+                the engagement (work experience/history), accomplishments and recommendations 
+                records between the individual and the organisation.
               </span>
               <br /> <br />
               <span className="mt-10">
-                <span className="font-bold">Recommendation/Individual Reference: </span>
-                Facilitate an Individual-to-Individual verifiable reference on work relationship/review or professional recommendation.
-              </span>
-              <br /> <br />
-              <span className="mt-10">
-                <span className="font-bold">Membership Reference: </span>
-                A verifiable badge on the membership referencing the relationship between the issuing Organisation/Institution/Association and the individual.
-              </span>
-              <br /> <br />
-              <span className="mt-10">
-                <span className="font-bold">Studentship Status Reference: </span>
-                This is the issuing institution's verifiable claim infrastructure to seamlessly facilitate its current Studentship Status Referencing.
-              </span>
+                <span className="font-bold">Individual Reference/Recommendation: </span>
+                  This Veridaq function facilitate the request and Issuance of verifiable 
+                  recommendation or an individual reference on the knowledge of another 
+                  individual&#39;s competence, personality and accomplishments.              
+                </span>
               <br /> <br />
               <span className="mt-10">
                 <span className="font-bold">Document Verification Reference: </span>
-                Facilitate the authentication of a document genuineness at the click of a button with a verifiable reference.
+                  This Veridaq function facilitate the request and the issuing of verification 
+                  reference on the authenticity of a document (certificate, transaction etc) 
+                </span>
+              <br /> <br />
+              <span className="mt-10">
+                <span className="font-bold">Veridaq Reference: </span>
+                This Veridaq function facilitate a Verification Reference on current 
+                Studentship, Professional or NYSC Membership Status of the individual user.
+              </span>
+              <br />
+              <span className="mt-4">
+                [Note: An issued Veridaq Reference grants the individual user (Student, 
+                Professional or NYSC Member) a Veridaq Store fee payment WAIVER to access 
+                and manage all received Work References and Individual References/Recommendations].
               </span>
             </p>
           }
@@ -103,7 +77,6 @@ export default async function Home() {
           </p>
         }
       />
-      <CookieNote />
     </main>
   );
 }

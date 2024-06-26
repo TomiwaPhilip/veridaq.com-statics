@@ -17,21 +17,36 @@ export default function Home() {
         />
         <img src="/assets/icons/blur.png" alt="Blob" className="blob-bottom-right" />
       </section>
-      <section className="mt-[100px]"> 
+      <section className="mt-[100px]">
         <SectionImageRight
-          heading="What Sets Us Apart: Automation for a Smarter Future"
-          paragraphs ={
-              <p> 
-                  Veridaq.com stands out with its cutting-edge approach toreference verification. 
-                  By harnessing the power of automation and verifiableclaims, we're redefining how individuals and 
-                  organizations interact, ensuring afuture where reference checks are both swift and reliable.
-              </p>
+          heading="Why Veridaq.com?"
+          paragraphs={
+            <p>
+              <span className="mt-10">
+                <span className="font-bold">Efficient: </span> Say goodbye to time-consuming HR Information checks.Veridaq.com streamlines the process, saving you valuable time.
+              </span>
+              <br /> <br />
+              <span className="mt-10">
+                <span className="font-bold">Reliable: </span>Trust in the authenticity of verifiable references. Our platform ensures the integrity of the information exchanged between entities.
+              </span>
+              <br /> <br />
+              <span className="mt-10">
+                <span className="font-bold">Cost-Effective: {" "}
+                </span>
+                Take away the risk of not verifying either due to expense or negligence with Veridaq.
+                False claims, information misrepresentation and forgery do come with huge social and economic costs.
+              </span>
+              <br /> <br />
+              <span className="mt-10">
+                <span className="font-bold">Easy and Secured Access: </span>Veridaq.com breaks down barriers to background information access within a secured framework.
+              </span>
+            </p>
           }
           imgSrc="/assets/images/Veridaq_Check.png"
           imgWidth={1200}
           imgHeight={1200}
           imgAlt="Veridaq_Check"
-         />
+        />
       </section>
       <section className="mt-[100px]"> 
         <div className="flex items-center justify-center">
@@ -68,7 +83,7 @@ export default function Home() {
           <p className="text-sm"> 
             Veridaq.com is more than just a platform; it's a community dedicated to shaping the future of professional connections. 
             Join us on this journey of trust, transparency, and efficiency. Whether you're an individual user or an organization, 
-            Veridaq.com is here to redefine your reference check experience.
+            Veridaq.com is here to redefine your HR background information check experience.
             Ready to experience a smarter, faster, and more secure way of handling reference verification? 
             Sign Up Now and be part of the Veridaq.com revolution!
           </p>

@@ -1,7 +1,7 @@
 import { Cta, Hero2, SectionImageLeft2, SectionImageRight2, NumberIcon } from "@/components/shared/Reusables";
 
 export default function HowItWorks() {
-    return(
+    return (
         <main className="mt-[150px] mx-[50px]">
             <Hero2
                 heading="Welcome to Veridaq.com, your go-to platform for revolutionizing the reference check 
@@ -13,12 +13,12 @@ export default function HowItWorks() {
 
             <section className="">
                 <NumberIcon imgSrc="/assets/icons/icon-number-01.png" imgAlt="1" />
-                <SectionImageRight2 
+                <SectionImageRight2
                     heading=""
                     paragraphs={
                         <div className="">
                             <p className="text-[20px] font-bold">Sign Up and Profile Creation </p>
-                            <p className="text-[20px]">Begin your journey with Veridaq.com by creating your account. Provide essential details and 
+                            <p className="text-[20px]">Begin your journey with Veridaq.com by creating your account. Provide essential details and
                                 complete your profile to ensure a personalized and secure experience.</p>
                         </div>
                     }
@@ -28,20 +28,17 @@ export default function HowItWorks() {
                     imgHeight={300}
                 />
 
-                <NumberIcon imgSrc="/assets/icons/icon-number-02.png" imgAlt="2" />                
+                <NumberIcon imgSrc="/assets/icons/icon-number-02.png" imgAlt="2" />
                 <SectionImageLeft2
                     heading=""
                     paragraphs={
                         <div>
-                            <p className="text-[20px] font-bold">Create Verifiable Claims</p>                            
+                            <p className="text-[20px] font-bold">Create Verifiable Claims</p>
                             <ul className="text-[20px] list-disc">
-                                <li>Work Reference: request/issue/receive verifiable records of work review between organisation and individual.</li>
-                                <li>Individual Reference/Recommendation: request/issuance of verifiable references 
-                                    on work relationship or recommendations between individuals.</li>
-                                <li>Membership Veridaq: provide verifiable proof on relationships between the individual 
-                                    and organisation users (Alumni, Professional, Social and Religious bodies). </li>
-                                <li>Studentship Status Reference: current studentship status referencing infrastructure for Institution\'s.</li>
-                                <li>Document Authentication Reference: enables the authenticity of documents through verifiable references.</li>
+                                <li>Work Reference</li>
+                                <li>Individual Reference/Recommendation</li>
+                                <li>Document Verification Reference</li>
+                                <li>Veridaq Reference</li>
                             </ul>
                         </div>
                     }
@@ -55,14 +52,15 @@ export default function HowItWorks() {
                 <div className="flex items-center justify-center">
                     <img src="/assets/icons/blob.png" alt="Blob" className="blob-center" />
                 </div>
-                <SectionImageRight2 
+                <SectionImageRight2
                     heading=""
                     paragraphs={
                         <div>
                             <p className="text-[20px] font-bold">Verification Loop</p>
-                            <p className="text-[20px]">Our platform employs an automated verification loop that ensures accuracy 
-                            and security throughout the process. The verification loop is designed to provide a reliable and 
-                            tamper-proof system for the exchange of verifiable claims between entities.</p>
+                            <p className="text-[20px]">Our platform employs an automated verification loop
+                                that allows for new information update. The verification loop is designed
+                                to provide a reliable and tamper-proof system for the exchange of
+                                verifiable references between entities.</p>
                         </div>
                     }
                     imgSrc="/assets/images/loop.png"
@@ -72,15 +70,16 @@ export default function HowItWorks() {
                 />
 
                 <NumberIcon imgSrc="/assets/icons/icon-number-04.png" imgAlt="4" />
-                <SectionImageLeft2 
+                <SectionImageLeft2
                     heading=""
                     paragraphs={
                         <div>
-                            <p className="text-[20px] font-bold">Access Your Veridaq Repository</p> 
-                            <p className="text-[20px]">Your secure Veridaq repository is the hub for managing all your verifiable claims:</p>
-                            <p className="text-[20px]"> <span className="font-bold"> Store: </span> Safely store your verifiable claims for easy access.</p>                           
-                            <p className="text-[20px]"> <span className="font-bold"> Share: </span> Share verifiable claims with relevant parties.</p>                           
-                            <p className="text-[20px]"> <span className="font-bold"> Manage: </span> Update, download, and control access to your verifiable claims.</p>                           
+                            <p className="text-[20px] font-bold">Access Your Veridaq Repository</p>
+                            <p className="text-[20px]">Access to Veridaq repository is the hub for managing all your 
+                                issued and received verifiable references. Through the repo, user can</p>
+                            <p className="text-[20px]"> <span className="font-bold"> Store: </span> Safely store your verifiable references for easy access.</p>
+                            <p className="text-[20px]"> <span className="font-bold"> Share: </span> Share verifiable references with relevant parties.</p>
+                            <p className="text-[20px]"> <span className="font-bold"> Manage: </span> Update, download, and control access to your verifiable references.</p>
                         </div>
                     }
                     imgSrc="/assets/images/box.png"
@@ -94,21 +93,25 @@ export default function HowItWorks() {
                     heading=""
                     paragraphs={
                         <div>
-                            <p className="text-[20px] font-bold">Experience a Smarter, Faster, and More Secure Reference Check</p>
-                            <p className="text-[20px]">Veridaq.com transforms reference checks into a streamlined,efficient, and secure process. Say goodbye to the hassles of traditional 
-                            reference verification and embrace a future where your professional connections are built on trust and transparency.</p>
+                            <p className="text-[20px] font-bold">Experience a Smarter, Faster, and More Secure HR Information Check</p>
+                            <p className="text-[20px]">Veridaq.com transforms HR information checks into a 
+                                streamlined, efficient, and secure process. Say goodbye to the hassles of 
+                                traditional HR information check and embrace a future where your 
+                                professional and work connections are built on automation, 
+                                trust and transparency.
+                            </p>
                         </div>
                     }
                     imgSrc="/assets/images/loop.png"
                     imgAlt="user"
                     imgWidth={400}
                     imgHeight={400}
-                />                
+                />
             </section>
-            <Cta 
-                paragraph = {
-                  <p className="font-bold text-[28px] md:text-[32px] lg:text-[32px] xl:text-[32px]">Ready to experience the Veridaq.com difference? 
-                  Sign Up Now and start enjoying a smarter, faster, and more secure reference check experience! </p>
+            <Cta
+                paragraph={
+                    <p className="font-bold text-[28px] md:text-[32px] lg:text-[32px] xl:text-[32px]">Ready to experience the Veridaq.com difference?
+                        Sign Up Now and start enjoying a smarter, faster, and more secure reference check experience! </p>
                 }
             />
         </main>

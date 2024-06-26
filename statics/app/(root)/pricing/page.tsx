@@ -6,10 +6,9 @@ export default function Pricing() {
     return(
         <main className="mt-[150px] mx-[50px]">
             <Hero2
-                heading="Welcome to Veridaq.com, your trusted platform for seamless reference
-                verification. We offer flexible pricing options to meet the needs of
-                both individuals and organizations. Take a look at our pricing plans
-                below:"
+                heading="Welcome to Veridaq.com, your trusted platform for HR information reference 
+                and background check. We offer flexible pricing options to meet the needs of both 
+                individuals and organizations. Take a look at our pricing plans below:"
             />
             
             <img src="/assets/icons/blur.png" alt="Blob" className="blob-bottom-right" />
@@ -19,7 +18,7 @@ export default function Pricing() {
                 <div className="flex flex-col md:flex-row justify-center gap-10">
                     <Card 
                         heading="Freemium Plan"
-                        subheading="Free to request and issue"
+                        subheading="Free Request and Issuance"
                         cardElements={
                         <div>
                             <Checks 
@@ -33,11 +32,12 @@ export default function Pricing() {
                     />
                     <Card 
                         heading="Veridaq Store Access Fee"
-                        subheading="$20 (N10,000 users in Nigeria)"
+                        subheading="$12 (or local currency equivalent)"
                         cardElements={
                         <div>
                             <Checks 
                             paragraphs="
+                            Or get an Access fee WAIVER with Veridaq Reference (available for users in Nigeria).
                             Veridaq Store is a Veridaq repo to store, 
                             access and manage all received Work References/Recommendation from Organisations and Individuals."
                             />
@@ -50,10 +50,7 @@ export default function Pricing() {
                         cardElements={
                         <div>
                             <Checks 
-                            paragraphs="Membership Veridaq"
-                            />
-                            <Checks 
-                            paragraphs="Studentship Status Veridaq"
+                            paragraphs="Veridaq Reference"
                             />
                             <Checks 
                             paragraphs="Document Verification Veridaq"
@@ -74,7 +71,7 @@ export default function Pricing() {
                 <div className="flex flex-col md:flex-row justify-center gap-10">
                     <Card 
                         heading="Freemium Plan"
-                        subheading="Issuance with No Earning Plan "
+                        subheading="Issuance with No Payment or Earning Plan"
                         cardElements={
                         <div>
                             <Checks 
@@ -89,12 +86,9 @@ export default function Pricing() {
                         cardElements={
                         <div>
                             <Checks 
-                            paragraphs="Membership Reference"
+                            paragraphs="Veridaq Reference (available for users in Nigeria)"
                             />
-                            <Checks 
-                            paragraphs="Studentship Status Reference"
-                            />
-                            <p className="font-semibold text-[20px] text-center mb-5">50% to Organisation and 50% to Platform Revenue Model</p>
+                            <p className="font-semibold text-[20px] text-center mb-5">Price N5,000</p>
                             <Checks 
                             paragraphs="Document Verification Reference"
                             />

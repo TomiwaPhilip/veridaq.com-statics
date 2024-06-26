@@ -9,8 +9,8 @@ export default withPWA({
   experimental: {
     serverActions: {
       allowedOrigins: [
-        "upgraded-space-potato-rq6vgj5q6vphw76q-3000.app.github.dev",
-        "localhost:3000",
+        "upgraded-space-potato-rq6vgj5q6vphw76q-3003.app.github.dev",
+        "localhost:3003",
       ],
       missingSuspenseWithCSRBailout: true,
     },
