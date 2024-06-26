@@ -1,4 +1,3 @@
-import CookieNote from "@/components/shared/CookieNote";
 import { Cta, Hero2, SectionImageLeft2, SectionImageRight2, NumberIcon } from "@/components/shared/Reusables";
 
 export default function ForOrganization() {
@@ -123,7 +122,6 @@ export default function ForOrganization() {
                   Join the growing community of organizations who trust Veridaq for their verification needs.</p>
                 }
             />
-            <CookieNote />
         </main>
     )
 }

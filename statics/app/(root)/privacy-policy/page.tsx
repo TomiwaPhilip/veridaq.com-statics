@@ -1,4 +1,3 @@
-import CookieNote from '@/components/shared/CookieNote';
 import React from 'react';
 
 export default function PrivacyPolicy(){
@@ -80,7 +79,6 @@ export default function PrivacyPolicy(){
       <p className="text-white">
         If you have any questions about this Privacy Policy, please contact us at legal@veridaq.com.
       </p>
-      <CookieNote />
     </div>
   );
 };

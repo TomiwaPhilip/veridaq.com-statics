@@ -1,4 +1,3 @@
-import CookieNote from '@/components/shared/CookieNote';
 import React from 'react';
 
 export default function DataProtectionPolicy(){
@@ -151,7 +150,6 @@ export default function DataProtectionPolicy(){
       <p className="text-white">
         Veridaq is committed to safeguarding personal data and ensuring compliance with data protection regulations. This policy outlines our commitment to transparency, accountability, and security in handling personal information. For any inquiries or concerns regarding data protection, please contact legal@veridaq.com.
       </p>
-      <CookieNote />
     </div>
   );
 };

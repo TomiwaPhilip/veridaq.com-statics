@@ -1,7 +1,6 @@
 import { Card, Checks } from "@/components/shared/Cards"
 import { NoOutlineButtonBig } from "@/components/shared/Button"
 import { Cta, Hero2 } from "@/components/shared/Reusables"
-import CookieNote from "@/components/shared/CookieNote"
 
 export default function Pricing() {
     return(
@@ -140,8 +139,6 @@ export default function Pricing() {
                 </p>
                 }
             />
-
-            <CookieNote />
         </main>
     )
 }

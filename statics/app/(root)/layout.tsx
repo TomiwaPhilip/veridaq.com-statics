@@ -1,6 +1,7 @@
-import "./globals.css"
 import type { Metadata, Viewport } from "next";
 
+import "./globals.css"
+import CookieNote from '@/components/shared/CookieNote';
 import Nav from "@/components/shared/Nav";
 import { Footer } from "@/components/shared/Reusables";
 import BottomBar from "@/components/shared/BottomBar";
@@ -67,6 +68,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <BottomBar />
+        <CookieNote />
       </body>
     </html>
   );

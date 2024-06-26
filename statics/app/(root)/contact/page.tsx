@@ -1,4 +1,3 @@
-import CookieNote from '@/components/shared/CookieNote';
 import React from 'react';
 
 const ContactInfo: React.FC = () => {
@@ -22,7 +21,6 @@ const ContactInfo: React.FC = () => {
         <h2 className="text-2xl font-semibold mb-2">Business Address</h2>
         <p className="text-lg">25, Ogo-Oluwa Street, Sango-Ota, Ogun State, Nigeria</p>
       </div>
-      <CookieNote />
     </div>
   );
 };

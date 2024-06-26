@@ -1,4 +1,3 @@
-import CookieNote from '@/components/shared/CookieNote';
 import React from 'react';
 
 export default function TermsAndConditions(){
@@ -174,7 +173,6 @@ export default function TermsAndConditions(){
       <p className="text-white">
         a. For feedback or support, contact us at legal@veridaq.com.
       </p>
-      <CookieNote />
     </div>
   );
 };
