@@ -289,7 +289,7 @@ export function Footer() {
           </Link>
           <p className="font-medium text-lg">Adsoft Online Limited</p>
           <p className="font-medium text-lg">
-            25, Ogo-Oluwa Street, Sango-Ota, Ogun State, Nigeria
+            7A Milverton Road, Ikoyi, Lagos State, Nigeria
           </p>
           <p className="font-medium text-lg">admin@veridaq.com</p>
           <div className="flex gap-3">

@@ -19,7 +19,7 @@ const ContactInfo: React.FC = () => {
 
       <div>
         <h2 className="text-2xl font-semibold mb-2">Business Address</h2>
-        <p className="text-lg">25, Ogo-Oluwa Street, Sango-Ota, Ogun State, Nigeria</p>
+        <p className="text-lg">7A Milverton Road, Ikoyi, Lagos State, Nigeria</p>
       </div>
     </div>
   );
