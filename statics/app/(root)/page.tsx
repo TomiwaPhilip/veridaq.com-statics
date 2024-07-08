@@ -10,7 +10,7 @@ export default async function Home() {
       <section>
         <Hero
           heading="Welcome to Veridaq.com"
-          subheading="Automate check on Profile/CV Data with Verifiable Reference."
+          subheading="Verifiably document and automate HR check on Hands-on/Work Experience, Accomplishment and Recommendation."
           paragraphs="Unlock the power of seamless background information check with Veridaq.com.
           Our platform revolutionizes the way organizations and individuals
           handle HR information verification with secure and verifiable reference."
@@ -49,22 +49,14 @@ export default async function Home() {
                 </span>
               <br /> <br />
               <span className="mt-10">
-                <span className="font-bold">Document Verification Reference: </span>
-                  This Veridaq function facilitate the request and the issuing of verification 
-                  reference on the authenticity of a document (certificate, transaction etc) 
+                <span className="font-bold">Hands-on Experience Reference: </span>
+                This Veridaq function facilitates Hands-on Experience Reference request by 
+                an Industrial Trainee/Gig-Worker and its issuance by a Training Organisation/Workplace 
+                to verifiably document and reference the practical training/ engagement 
+                (hands-on learning/work experience) and accomplishment records between 
+                the individual and the organisation.
                 </span>
               <br /> <br />
-              <span className="mt-10">
-                <span className="font-bold">Veridaq Reference: </span>
-                This Veridaq function facilitate a Verification Reference on current 
-                Studentship, Professional or NYSC Membership Status of the individual user.
-              </span>
-              <br />
-              <span className="mt-4">
-                [Note: An issued Veridaq Reference grants the individual user (Student, 
-                Professional or NYSC Member) a Veridaq Store fee payment WAIVER to access 
-                and manage all received Work References and Individual References/Recommendations].
-              </span>
             </p>
           }
         />
