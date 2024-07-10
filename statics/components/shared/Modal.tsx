@@ -1,16 +1,16 @@
-"use client";
+"use client"
 
-import React, { useState, ReactNode, useEffect, useRef } from "react";
-import { NoOutlineButtonBig, NoOutlineButtonBig2 } from "./Button";
+import React, { useState, ReactNode, useEffect, useRef } from "react"
+import { NoOutlineButtonBig, NoOutlineButtonBig2 } from "./Button"
 
 interface ModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  children?: React.ReactNode;
+  isOpen: boolean
+  onClose: () => void
+  children?: React.ReactNode
 }
 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
-  const modalRef = useRef<HTMLDivElement>(null);
+  const modalRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -18,20 +18,20 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
         modalRef.current &&
         !modalRef.current.contains(event.target as Node)
       ) {
-        onClose();
+        onClose()
       }
-    };
+    }
 
     if (isOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside)
     }
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [isOpen, onClose]);
+      document.removeEventListener("mousedown", handleClickOutside)
+    }
+  }, [isOpen, onClose])
 
-  if (!isOpen) return null;
+  if (!isOpen) return null
 
   return (
     <div className="fixed inset-0 z-50 overflow-auto backdrop-filter backdrop-blur-lg flex justify-center items-center">
@@ -49,7 +49,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Modal;
+export default Modal
