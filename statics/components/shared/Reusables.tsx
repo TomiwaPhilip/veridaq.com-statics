@@ -1,15 +1,15 @@
-"use client";
+"use client"
 
-import Image from "next/image";
-import { ReactNode } from "react";
-import { useInView } from "react-intersection-observer";
+import Image from "next/image"
+import { ReactNode } from "react"
+import { useInView } from "react-intersection-observer"
 
 import {
   OutlineButtonBig,
   NoOutlineButtonBig,
   OutlineButtonBig2,
-} from "./Button";
-import Link from "next/link";
+} from "./Button"
+import Link from "next/link"
 
 // This component is for the Hero section
 export function Hero({
@@ -21,13 +21,13 @@ export function Hero({
   imgHeight,
   imgAlt,
 }: {
-  heading: string;
-  subheading: string;
-  paragraphs: string;
-  imgSrc: string;
-  imgWidth: number;
-  imgHeight: number;
-  imgAlt: string;
+  heading: string
+  subheading: string
+  paragraphs: string
+  imgSrc: string
+  imgWidth: number
+  imgHeight: number
+  imgAlt: string
 }) {
   return (
     <div className="flex flex-col md:flex-row justify-center gap-10 space-x-10 items-center">
@@ -52,16 +52,16 @@ export function Hero({
         <Image src={imgSrc} alt={imgAlt} width={imgWidth} height={imgHeight} />
       </div>
     </div>
-  );
+  )
 }
 
 interface prop {
-  heading: string;
-  paragraphs: ReactNode;
-  imgSrc: string;
-  imgWidth: number;
-  imgHeight: number;
-  imgAlt: string;
+  heading: string
+  paragraphs: ReactNode
+  imgSrc: string
+  imgWidth: number
+  imgHeight: number
+  imgAlt: string
 }
 // This components is for sections with images on the right
 export function SectionImageRight({
@@ -96,7 +96,7 @@ export function SectionImageRight({
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export function SectionImageLeft({
@@ -129,7 +129,7 @@ export function SectionImageLeft({
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 // This components is for sections with images on the right
@@ -151,7 +151,7 @@ export function SectionImageRight2({
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 // This components is for sections with images on the left
@@ -175,21 +175,21 @@ export function SectionImageLeft2({
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export function NumberIcon({
   imgSrc,
   imgAlt,
 }: {
-  imgSrc: string;
-  imgAlt: string;
+  imgSrc: string
+  imgAlt: string
 }) {
   return (
     <div className="flex items-center justify-center pt-[4rem]">
       <img src={imgSrc} alt={imgAlt} className="w-[50px] h-[50px]" />
     </div>
-  );
+  )
 }
 
 export function Hero2({ heading }: { heading: string }) {
@@ -207,7 +207,7 @@ export function Hero2({ heading }: { heading: string }) {
         />
       </div>
     </div>
-  );
+  )
 }
 
 // This is the Call to Action component
@@ -229,7 +229,7 @@ export function Cta({ paragraph }: { paragraph: ReactNode }) {
         <img src="/assets/icons/blob.png" alt="Blob" className="blob-center" />
       </div>
     </section>
-  );
+  )
 }
 
 export function Footer() {
@@ -289,7 +289,7 @@ export function Footer() {
           </Link>
           <p className="font-medium text-lg">Adsoft Online Limited</p>
           <p className="font-medium text-lg">
-            25, Ogo-Oluwa Street, Sango-Ota, Ogun State, Nigeria
+            7A Milverton Road, Ikoyi, Lagos State, Nigeria
           </p>
           <p className="font-medium text-lg">admin@veridaq.com</p>
           <div className="flex gap-3">
@@ -307,5 +307,5 @@ export function Footer() {
       </div>
       <p className="text-center">All rights reserved by Veridaq. © 2024</p>
     </footer>
-  );
+  )
 }
