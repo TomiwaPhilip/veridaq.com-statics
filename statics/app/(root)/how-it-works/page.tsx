@@ -1,14 +1,14 @@
 import {
   BaseFramerAnimation,
   ScrollTriggeredAnimation,
-} from "@/components/shared/Animations"
+} from "@/components/shared/Animations";
 import {
   Cta,
   Hero2,
   SectionImageLeft2,
   SectionImageRight2,
   NumberIcon,
-} from "@/components/shared/Reusables"
+} from "@/components/shared/Reusables";
 
 export default function HowItWorks() {
   return (
@@ -58,13 +58,12 @@ export default function HowItWorks() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold">
-                  Create Verifiable Claims
+                  Create Verifiable References
                 </p>
                 <ul className="text-[20px] list-disc">
-                  <li>Work Reference</li>
+                  <li>Work Reference </li>
+                  <li>Hands-on Experience Reference </li>
                   <li>Individual Reference/Recommendation</li>
-                  <li>Document Verification Reference</li>
-                  <li>Veridaq Reference</li>
                 </ul>
               </div>
             }
@@ -111,10 +110,10 @@ export default function HowItWorks() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold">
-                  Access Your Veridaq Repository
+                  Access Your Veridaq Store
                 </p>
                 <p className="text-[20px]">
-                  Access to Veridaq repository is the hub for managing all your
+                  Access to Veridaq Store is the hub for managing all your
                   issued and received verifiable references. Through the repo,
                   user can
                 </p>
@@ -180,5 +179,5 @@ export default function HowItWorks() {
         />
       </ScrollTriggeredAnimation>
     </main>
-  )
+  );
 }

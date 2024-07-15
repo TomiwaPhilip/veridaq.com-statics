@@ -1,10 +1,10 @@
-import { ScrollTriggeredAnimation } from "@/components/shared/Animations"
+import { ScrollTriggeredAnimation } from "@/components/shared/Animations";
 import {
   Cta,
   Hero,
   SectionImageLeft,
   SectionImageRight,
-} from "@/components/shared/Reusables"
+} from "@/components/shared/Reusables";
 
 export default function Home() {
   return (
@@ -14,10 +14,7 @@ export default function Home() {
           <Hero
             heading=""
             subheading="Our Mission: Empowering Connections, Ensuring Integrity and Exchanging Values with Verifiable References"
-            paragraphs="Our mission is to empower individuals and organisations by providing 
-          a seamless, secure and efficient platform for verifiable references, thus, 
-          simplifying the process of talent development, engagement and assessment 
-          checks so as to ensure competence and foster trust in professional and work relationships."
+            paragraphs="Our mission is to empower individuals and organisations by providing a seamless, secure and efficient platform for verifiable references, thus, simplifying the process of talent development, engagement and assessment checks so as to ensure competence and foster trust in professional and work relationships."
             imgSrc="/assets/images/Mission.png"
             imgWidth={1200}
             imgHeight={1200}
@@ -84,7 +81,7 @@ export default function Home() {
             imgWidth={1200}
             imgHeight={1200}
             imgAlt="Settings"
-            heading="Our Values: Veracity, Collaboration, Improvement"
+            heading="Our Values: Veracity, Collaboration and Improvement"
             paragraphs={
               <p>
                 <span className="mt-10">
@@ -128,5 +125,5 @@ export default function Home() {
         />
       </ScrollTriggeredAnimation>
     </main>
-  )
+  );
 }
