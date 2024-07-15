@@ -37,8 +37,7 @@ export default function ForIndividual() {
             paragraphs={
               <div className="">
                 <p className="text-[20px] font-bold pb-5">
-                  Make your background information check effortless for
-                  prospective connections and hirer.
+                  Individual User Sign-up/in
                 </p>
               </div>
             }
@@ -55,7 +54,10 @@ export default function ForIndividual() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold pb-5">
-                  Keep a secure, transparent and verifiable records
+                  Make request and receive Verifiable References (at No Cost) on
+                  Hands-on/Work Experiences, Accomplishments and Recommendations
+                  from the corresponding entity's ( eg. Workplaces, Institution,
+                  Employer, Trainer, Mentor, Boss etc).
                 </p>
               </div>
             }
@@ -80,7 +82,8 @@ export default function ForIndividual() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold pb-5">
-                  Accessible HR repository that allows for information update.
+                  Can make Issuance of verifiable Individual References or
+                  Recommendations to another Individual at no cost.
                 </p>
               </div>
             }
@@ -97,7 +100,9 @@ export default function ForIndividual() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold pb-5">
-                  Flexible and economical products pricing
+                  It is FREE to request and receive Work Reference, Hands-on
+                  Experience Reference and Individual Reference/Recommendation
+                  on the platform.
                 </p>
               </div>
             }
@@ -113,10 +118,12 @@ export default function ForIndividual() {
             heading=""
             paragraphs={
               <div>
+                <p className="text-[20px] font-bold pb-1">
+                  Access and manage (download, share and request update) all
+                  received Verifiable References from the Veridaq Store.
+                </p>
                 <p className="text-[20px] font-bold pb-5">
-                  Position yourself well for opportunities with an automated
-                  information verification possibility on your Profile/CV/Resume
-                  data.
+                  Veridaq Store Access Fee = $12
                 </p>
               </div>
             }
@@ -133,7 +140,7 @@ export default function ForIndividual() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold pb-5">
-                  Dedicated support from the Veridaq team
+                  Access the Talent/Job Placement portal
                 </p>
               </div>
             }
