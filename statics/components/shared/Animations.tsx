@@ -40,7 +40,7 @@ export const ScrollTriggeredAnimation = ({
 }: PropsI) => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: initialY || 200, zIndex: -1 }}
+      initial={{ opacity: 0, y: initialY || 200, zIndex: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: duration || 1, delay: delay || 0 }}
       className={props.className}

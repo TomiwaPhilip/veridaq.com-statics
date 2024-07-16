@@ -55,11 +55,11 @@ export default async function Home() {
               <p>
                 <span className="mt-10">
                   <span className="font-bold">Work Reference: </span>This
-                  Veridaq function facilitate Work Reference request by a
-                  employee/freelancer/industrial trainee and its issuance by a
-                  workplace/employer to verifiably document and reference the
-                  engagement (work experience/history), accomplishments and
-                  recommendations records between the individual and the
+                  Veridaq function facilitates Work Reference requests by a
+                  current or previous employee and its issuance by a work
+                  organisation. An issued Work Reference will verifiably
+                  document and reference the work engagement, accomplishments
+                  and commendation record between the individual and the
                   organisation.
                 </span>
                 <br /> <br />
@@ -67,9 +67,9 @@ export default async function Home() {
                   <span className="font-bold">
                     Individual Reference/Recommendation:{" "}
                   </span>
-                  This Veridaq function facilitate the request and Issuance of
+                  This Veridaq function facilitates the request and issuance of
                   verifiable recommendation or an individual reference on the
-                  knowledge of another individual&#39;s competence, personality
+                  knowledge of another individual&apos;s competence, personality
                   and accomplishments.
                 </span>
                 <br /> <br />
@@ -78,11 +78,12 @@ export default async function Home() {
                     Hands-on Experience Reference:{" "}
                   </span>
                   This Veridaq function facilitates Hands-on Experience
-                  Reference request by an Industrial Trainee/Gig-Worker and its
-                  issuance by a Training Organisation/Workplace to verifiably
-                  document and reference the practical training/ engagement
-                  (hands-on learning/work experience) and accomplishment records
-                  between the individual and the organisation.
+                  Reference requests by a project team member (Freelancer,
+                  Trainee or a regular Employee) and its issuance by the project
+                  promoter (Organisation). An issued Hands-on Experience
+                  Reference will verifiably document and reference the hands-on
+                  engagement, role accomplishments and commendation record on
+                  the project between the individual and the organisation.
                 </span>
                 <br /> <br />
               </p>

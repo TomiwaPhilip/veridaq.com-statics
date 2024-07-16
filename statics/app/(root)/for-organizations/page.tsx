@@ -36,7 +36,7 @@ export default function ForOrganization() {
             paragraphs={
               <div className="">
                 <p className="text-[20px] font-bold pb-5">
-                  Streamlined HR information verification process
+                  Organisation User Sign-up/in
                 </p>
               </div>
             }
@@ -54,7 +54,12 @@ export default function ForOrganization() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold pb-5">
-                  A secure and reliable verifiable reference technology.
+                  Make Issuance of Verifiable References (at No Cost) on
+                  Hands-on/Work Experiences, Accomplishments and Recommendations
+                  to corresponding individual (eg. Current or Ex Employee's,
+                  Freelancer's, Project Team Member, Trainee's, Student's etc.).
+                  This Issuance is either motivated by a Request or as a Direct
+                  Issuance.
                 </p>
               </div>
             }
@@ -79,7 +84,7 @@ export default function ForOrganization() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold pb-5">
-                  Flexible reference issuance options
+                  Access all Issuances record from the Veridaq Store.
                 </p>
               </div>
             }
@@ -96,9 +101,12 @@ export default function ForOrganization() {
             heading=""
             paragraphs={
               <div>
+                <p className="text-[20px] font-bold mb-1">
+                  Activate premium store access for Verified Account and other
+                  store management perks.
+                </p>
                 <p className="text-[20px] font-bold pb-5">
-                  Centralized and user friendly Veridaq repository to store and
-                  manage issuances
+                  Premium Veridaq Store Access Fee = $24
                 </p>
               </div>
             }
@@ -116,7 +124,11 @@ export default function ForOrganization() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold pb-5">
-                  Transparent earning or payment model.
+                  Subscribe for an Enterprise Plan where the organisation can
+                  create Verifiable Reference products and charge its users for
+                  it. This will be in addition to the platform freemium model
+                  for Work Reference and Hands-on Experience Reference
+                  Issuances.
                 </p>
               </div>
             }
@@ -133,7 +145,8 @@ export default function ForOrganization() {
             paragraphs={
               <div>
                 <p className="text-[20px] font-bold pb-5">
-                  Dedicated support from the Veridaq team.
+                  Enterprise Access to the Talent SR (Sourcing and Rating)
+                  portal.
                 </p>
               </div>
             }
