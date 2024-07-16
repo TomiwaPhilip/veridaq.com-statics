@@ -1,14 +1,14 @@
 import {
   BaseFramerAnimation,
   ScrollTriggeredAnimation,
-} from "@/components/shared/Animations"
+} from "@/components/shared/Animations";
 import {
   Cta,
   Hero2,
   SectionImageLeft2,
   SectionImageRight2,
   NumberIcon,
-} from "@/components/shared/Reusables"
+} from "@/components/shared/Reusables";
 
 export default function ForOrganization() {
   return (
@@ -170,5 +170,5 @@ export default function ForOrganization() {
         />
       </ScrollTriggeredAnimation>
     </main>
-  )
+  );
 }

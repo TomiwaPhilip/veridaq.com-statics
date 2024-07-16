@@ -1,19 +1,19 @@
-import getSession from "@/lib/session/getSession"
+import getSession from "@/lib/session/getSession";
 
 import {
   Cta,
   Hero,
   SectionImageLeft,
   SectionImageRight,
-} from "@/components/shared/Reusables"
+} from "@/components/shared/Reusables";
 import {
   BaseFramerAnimation,
   ScrollTriggeredAnimation,
-} from "@/components/shared/Animations"
+} from "@/components/shared/Animations";
 
 export default async function Home() {
-  const session = await getSession()
-  console.log(session)
+  const session = await getSession();
+  console.log(session);
   return (
     <main className="mx-[50px] mt-[150px] pt-[10]">
       <BaseFramerAnimation>
@@ -106,5 +106,5 @@ export default async function Home() {
         />
       </ScrollTriggeredAnimation>
     </main>
-  )
+  );
 }
