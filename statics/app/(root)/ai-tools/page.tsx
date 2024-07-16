@@ -17,7 +17,7 @@ export default function AiTools() {
   return (
     <div className="mx-[50px] mt-[150px] pt-[10]">
       <BaseFramerAnimation initialY={0}>
-        <h2 className="text-2xl text-white mb-4 font-bold">Veridaq Ai Tools</h2>
+        <h2 className="text-2xl text-white mb-4 font-bold">Veridaq AI Tools</h2>
         <p className="text-white mb-6">
           Here are Veridaq.com AI-powered tools for verifiable talent profiling
           and competency-based hiring. These tools include:

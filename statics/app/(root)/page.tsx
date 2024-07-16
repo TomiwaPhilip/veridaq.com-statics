@@ -1,19 +1,19 @@
-import getSession from "@/lib/session/getSession";
+import getSession from "@/lib/session/getSession"
 
 import {
   Cta,
   Hero,
   SectionImageLeft,
   SectionImageRight,
-} from "@/components/shared/Reusables";
+} from "@/components/shared/Reusables"
 import {
   BaseFramerAnimation,
   ScrollTriggeredAnimation,
-} from "@/components/shared/Animations";
+} from "@/components/shared/Animations"
 
 export default async function Home() {
-  const session = await getSession();
-  console.log(session);
+  const session = await getSession()
+  console.log(session)
   return (
     <main className="mx-[50px] mt-[150px] pt-[10]">
       <BaseFramerAnimation>
@@ -65,16 +65,6 @@ export default async function Home() {
                 <br /> <br />
                 <span className="mt-10">
                   <span className="font-bold">
-                    Individual Reference/Recommendation:{" "}
-                  </span>
-                  This Veridaq function facilitates the request and issuance of
-                  verifiable recommendation or an individual reference on the
-                  knowledge of another individual&apos;s competence, personality
-                  and accomplishments.
-                </span>
-                <br /> <br />
-                <span className="mt-10">
-                  <span className="font-bold">
                     Hands-on Experience Reference:{" "}
                   </span>
                   This Veridaq function facilitates Hands-on Experience
@@ -84,6 +74,16 @@ export default async function Home() {
                   Reference will verifiably document and reference the hands-on
                   engagement, role accomplishments and commendation record on
                   the project between the individual and the organisation.
+                </span>
+                <br /> <br />
+                <span className="mt-10">
+                  <span className="font-bold">
+                    Individual Reference/Recommendation:{" "}
+                  </span>
+                  This Veridaq function facilitates the request and issuance of
+                  verifiable recommendation or an individual reference on the
+                  knowledge of another individual&apos;s competence, personality
+                  and accomplishments.
                 </span>
                 <br /> <br />
               </p>
@@ -106,5 +106,5 @@ export default async function Home() {
         />
       </ScrollTriggeredAnimation>
     </main>
-  );
+  )
 }
