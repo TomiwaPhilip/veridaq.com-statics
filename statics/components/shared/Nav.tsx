@@ -84,7 +84,7 @@ export default function Nav() {
                   <p
                     className={`text-sm px-4 py-2 ${isActiveLink("/ai-tools")}`}
                   >
-                    Veridaq Ai Tools
+                    Veridaq AI Tools
                   </p>
                 </Link>
               </div>
