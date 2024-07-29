@@ -262,7 +262,7 @@ export function Footer() {
           <Link href={"/for-individuals"} passHref>
             <p className="font-medium text-lg">For Individuals</p>
           </Link>
-          <Link href={"/a-tools"} passHref>
+          <Link href={"/ai-tools"} passHref>
             <p className="font-medium text-lg">Veridaq AI Tools</p>
           </Link>
         </div>
