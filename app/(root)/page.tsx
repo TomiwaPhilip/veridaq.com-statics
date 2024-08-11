@@ -20,7 +20,7 @@ export default async function Home() {
         <section>
           <Hero
             heading="Welcome to Veridaq.com"
-            subheading="Verifiably document and automate HR check on Hands-on/Work Experience, Accomplishment and Recommendation."
+            subheading="Verifiably document and reference competencies and cultured attributes."
             paragraphs="Unlock the power of seamless background information check with Veridaq.com.
           Our platform revolutionizes the way organizations and individuals
           handle HR information verification with secure and verifiable reference."
